@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+:root {
+--pakistan-green: #002d00ff;
+--drab-dark-brown: #2a2600ff;
+--cambridge-blue: #77bfa3ff;
+--celadon: #98c9a3ff;
+--tea-green: #bfd8bdff;
+}
+
+
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+h1,h2,h3 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--drab-dark-brown);
+}
+.title-header { 
+    color: var(--drab-dark-brown);
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    width:100%;
+    /* position: relative;
+    top: 20%;*/
+    font-size: 5em; 
+    }
+
+.tagline-heading {
+    font-family: 'Merienda One', 'Open Sans', cursive;
+    text-align: center;
+    width:100%;
+    position: absolute;
+    font-size: 2em;
+    top: 25%;
+}
+
+.text-center {
+    text-align: center;
+    }
+.container{
+        position: relative;
+        left: 12%;
+        right: 12%;
+    }
+.body-left {
+    background-color: var(--celadon);
+    position: relative;
+    text-align: center;
+    width: 30%;
+    top: 15px;
+    left: 12%;
+    font-size: 1.2em;
+} 
+
+.body-right {
+    background-color: var(--cambridge-blue);
+    color: var(--celadon);
+    position: relative;
+    text-align: center;
+    width: 30%;
+    top: 15px;
+    left: 52%;
+    font-size: 1.2em;
+
+}
+
+.nav-link-format {
+        width: 100vw;  /* Targets Resize of the page eg links dont collapse on top of each other  */
+        height: 2vw;
+        display: inline-block;
+    }
+.image-header{     
+    /* background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') 
+    center center / cover no-repeat fixed;  */
+    background: url('https://glorious-parakeet-pjj7r5v6j7wxf65rr-8080.app.github.dev/project-1/assets/img/hd2-iStock-464324531.jpg');
+        height: 60vh;/*600px; /* You must set a specified height for the image to make it behave corectly  */
+        background-position: center; 
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        background-color: var(--cambridge-blue); /* alt colour set for image not loading eg gives good contrast */
+        
+      }
+   
+   
+
+.alt-background {
+    background-color:var(--cambridge-blue);
+    }   
+section { 
+        display: block;
+    }	
+.section-bottom { 
+        margin-bottom: 100px; /* target footer/page ratio */ 
+        /* so that the page is not obscured by the footer and can be scrolled fully */
+        /* 100px and height: 60px in .fixed bottom */ 
+    } 
+    
+.fixed-bottom {  /* targets width and height of footer to maintain resizing*/
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px; 
+      }
+/* targets global footer properties */
+footer {
+        background-color: var(--tea-green);
+        padding: 1em;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 3; /* prioritises footer over page in the z -axis */
+    }
+    
+footer > span {
+        color: Var(--drab-dark-brown); /* targets colour of navigation text*/
+    }
+    
+footer > a {
+        color: Var(--drab-dark-brown); /* colour of link text*/
+        text-decoration: none;
+        padding:  0 1%; /*targets- gaps bettween page links eg facebook */
+        font-size: 1em; 
+    }
+
