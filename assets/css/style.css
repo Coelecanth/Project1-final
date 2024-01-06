@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One 100,200,300,400,500,600,700|Open+Sans:wght@300,400,500,600,700');
 :root {
 --pakistan-green: #002d00ff;
 --drab-dark-brown: #2a2600ff;
@@ -7,12 +7,18 @@
 --tea-green: #bfd8bdff;
 }
 
+/* ----global settings----------*/
 
 body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
    
 }
+.loc-text-center {
+    text-align: center;
+    }
 
+
+/* ----headings----------*/
 h1,h2,h3 {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     color: var(--drab-dark-brown);
@@ -30,7 +36,7 @@ h1,h2,h3 {
     }
 
 .tagline-heading {
-    font-family: 'Merienda One', 'Open Sans', cursive;
+    font-family: 'Merienda One:200', 'Open Sans', cursive;
     text-align: center;
     width:100%;
     position: absolute;
@@ -38,21 +44,20 @@ h1,h2,h3 {
     top: 25%;
 }
 
-.text-center {
-    text-align: center;
-    }
 
     
 .image-header{     
-    /* background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') 
-    center center / cover no-repeat fixed;  */
-    background: url ('./assets/img/hd2-iStock-464324531.jpg');
-        height: 60vh;/*600px; /* You must set a specified height for the image to make it behave corectly  */
+    /*background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') 
+    center center / cover no-repeat fixed; */ 
+    background: url ('../img/hd2-iStock-464324531.jpg');
+        /* height: 60vh;/*600px; /* You must set a specified height for the image to make it behave corectly  */
         background-position: center; 
         background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
-        background-color: var(--cambridge-blue); /* alt colour set for image not loading eg gives good contrast */
-        
+        background-size: cover;
+        min-height: 360px;
+    /*    background-size: cover; /* Resize the background image to cover the entire container
+        background-color: var(--cambridge-blue); /* alt colour set for image not loading eg gives good contrast 
+    */   
       }
    
    
@@ -68,7 +73,9 @@ section {
         /* so that the page is not obscured by the footer and can be scrolled fully */
         /* 100px and height: 60px in .fixed bottom */ 
     } 
+ 
     
+/* -------------Footer----------*/
 .fixed-bottom {  /* targets width and height of footer to maintain resizing*/
         position: fixed;
         bottom: 0;
