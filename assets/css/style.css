@@ -41,42 +41,12 @@ h1,h2,h3 {
 .text-center {
     text-align: center;
     }
-.container{
-        position: relative;
-        left: 12%;
-        right: 12%;
-    }
-.body-left {
-    background-color: var(--celadon);
-    position: relative;
-    text-align: center;
-    width: 30%;
-    top: 15px;
-    left: 12%;
-    font-size: 1.2em;
-} 
 
-.body-right {
-    background-color: var(--cambridge-blue);
-    color: var(--celadon);
-    position: relative;
-    text-align: center;
-    width: 30%;
-    top: 15px;
-    left: 52%;
-    font-size: 1.2em;
-
-}
-
-.nav-link-format {
-        width: 100vw;  /* Targets Resize of the page eg links dont collapse on top of each other  */
-        height: 2vw;
-        display: inline-block;
-    }
+    
 .image-header{     
     /* background: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/CSSEssentials/coffee-beans.jpg') 
     center center / cover no-repeat fixed;  */
-    background: url('https://glorious-parakeet-pjj7r5v6j7wxf65rr-8080.app.github.dev/project-1/assets/img/hd2-iStock-464324531.jpg');
+    background: url ('./assets/img/hd2-iStock-464324531.jpg');
         height: 60vh;/*600px; /* You must set a specified height for the image to make it behave corectly  */
         background-position: center; 
         background-repeat: no-repeat; /* Do not repeat the image */
