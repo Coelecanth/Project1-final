@@ -15,8 +15,11 @@ body {
 }
 .loc-text-center {
     text-align: center;
+   
     }
-
+.loc-text-color {
+    background-color: var(--pakistan-green) ;    
+}
 
 /* ----headings----------*/
 h1,h2,h3 {
