@@ -11,7 +11,7 @@
 /* ----global settings----------*/
 
 body {
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'roboto', 'Trebuchet MS', sans-serif;
 }
 
 /* ----headings----------*/
@@ -27,12 +27,13 @@ body {
     font-family: 'Merienda';
 }
 
-.logo {
+/*.logo {
     background-color: #77bfa3ff;
     min-height: 350px;
      /* background: url("https://github.com/Coelecanth/Project1-final/blob/main/assets/img/hd2-iStock-464324531.jpg");
-   background: url("../img/hd2-iStock-464324531.jpg");*/
-}   
+   background: url("../img/hd2-iStock-464324531.jpg");
+   
+} */  
     
 
 
@@ -41,8 +42,10 @@ body {
 /* targets global footer properties */
 footer {
         background-color: #98c9a3ff;
-         bottom: 0;
-         height: 60px; 
+        position: Fixed; 
+        width: 100%;
+        bottom: 0;
+         height: 100px; 
         z-index: 3; /* prioritises footer over page in the z -axis */
     }
     
