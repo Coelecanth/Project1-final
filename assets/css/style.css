@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 /*
     --pakistan-green: #002d00ff;
@@ -8,6 +7,32 @@
     --tea-green: #bfd8bdff;
 */
 
+    /* ----google icons settings----------*/
+    .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 200,
+    'opsz' 48
+    }
+/*-------------- referenced images in Index-----*/
+.logo {
+    background-color: #77bfa3ff;
+    background: url("../img/hd2-iStock-464324531.jpg");
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1 {
+    background-color: #002d00ff;
+    background: url("assets/img/106390-v1200px.jpg");
+    min-height: 200x;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* ----global settings----------*/
 
 body {
@@ -15,11 +40,9 @@ body {
 }
 
 /* ----headings----------*/
-
-
-.title-header { 
+.title-header {
     color: #2a2600ff;
-    font-family:  'Roboto'
+    font-family: 'Roboto'
 }
 
 .tagline-heading {
@@ -27,35 +50,49 @@ body {
     font-family: 'Merienda';
 }
 
-/*.logo {
-    background-color: #77bfa3ff;
-    min-height: 350px;
-     /* background: url("https://github.com/Coelecanth/Project1-final/blob/main/assets/img/hd2-iStock-464324531.jpg");
-   background: url("../img/hd2-iStock-464324531.jpg");
-   
-} */  
-    
-
-
- 
-
 /* targets global footer properties */
 footer {
-        background-color: #98c9a3ff;
-        position: Fixed; 
-        width: 100%;
-        bottom: 0;
-         height: 100px; 
-        z-index: 3; /* prioritises footer over page in the z -axis */
-    }
-    
-footer > span {
-        color: #77bfa3ff; /* targets colour of navigation text*/
-    }
-    
-footer > a {
-        color: #77bfa3ff; /* colour of link text*/
-        
- 
-    }
+    background-color: #98c9a3ff;
+    position: Fixed;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    z-index: 3;
+    /* prioritises footer over page in the z -axis */
+}
 
+footer>span {
+    color: #77bfa3ff;
+    /* targets colour of navigation text*/
+}
+
+footer>a {
+    color: #77bfa3ff;
+    /* colour of link text*/
+
+
+}
+
+footer>a:link {
+    color: #002d00ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer>a:visited {
+    color: #002d00ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+footer>a:hover {
+    color: #98c9a3ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer>a:active {
+    color: #002d00ff;
+    background-color: transparent;
+    text-decoration: underline;
+}
