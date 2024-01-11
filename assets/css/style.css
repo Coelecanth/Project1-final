@@ -25,16 +25,26 @@
     background-size: cover;
 }
 .img1 {
-    background-color: #002d00ff;
-    background: url("assets/img/106390-v1200px.jpg");
+    background: url("../img/106390-v1200px.jpg");
     min-height: 200x;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 30vh;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
-/* ----global settings----------*/
+/*------------image abnd fomratting-------------*/
+.bg-row-band{
+background-color: #002d00ff;
+height: 30vh
+}
 
+
+
+
+/* ----global settings----------*/
 body {
     font-family: 'roboto', 'Trebuchet MS', sans-serif;
 }
@@ -91,7 +101,7 @@ footer>a:hover {
     text-decoration: underline;
 }
 
-footer>a:active {
+footer > a:active {
     color: #002d00ff;
     background-color: transparent;
     text-decoration: underline;
