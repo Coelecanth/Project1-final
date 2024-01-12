@@ -31,8 +31,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
+    margin-left: 1vw;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 /*------------image abnd fomratting-------------*/
@@ -46,18 +47,23 @@ height: 30vh
 
 /* ----global settings----------*/
 body {
-    font-family: 'roboto', 'Trebuchet MS', sans-serif;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+
 }
 
 /* ----headings----------*/
 .title-header {
     color: #2a2600ff;
-    font-family: 'Roboto'
+    font-family: 'Roboto' ,'Trebuchet MS', sans-serif
+ 
+    
 }
 
 .tagline-heading {
     color: #2a2600ff;
+
     font-family: 'Merienda';
+    font-size: x-large;
 }
 
 /* targets global footer properties */
