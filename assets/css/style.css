@@ -7,63 +7,66 @@
     --tea-green: #bfd8bdff;
 */
 
-    /* ----google icons settings----------*/
-    .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 200,
-    'opsz' 48
-    }
-/*-------------- referenced images in Index-----*/
+ 
+/*-------------- referenced images in Header-----*/
 .logo {
-    background-color: #77bfa3ff;
+    background-color: #002d00ff;
     background: url("../img/hd2-iStock-464324531.jpg");
     min-height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+   
 }
-.img1 {
+/*.img1 {
     background: url("../img/106390-v1200px.jpg");
-    min-height: 200x;
+    min-height: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 30vh;
     margin-left: 1vw;
     margin-top: 25px;
     margin-bottom: 25px;
-}
+}*/
 
 /*------------image abnd fomratting-------------*/
 .bg-row-band{
 background-color: #002d00ff;
-height: 30vh
+
 }
 
+.loc-img-format {
+    max-width: 90%;
+    height: 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
-
-
-/* ----global settings----------*/
+    /* ----global settings----------*/
 body {
     font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
 
 }
+ .loc-text-body {
+    display:inline-block;
+ }
+
 
 /* ----headings----------*/
 .title-header {
-    color: #2a2600ff;
+    color: #77bfa3ff;
     font-family: 'Roboto' ,'Trebuchet MS', sans-serif
- 
-    
 }
 
 .tagline-heading {
     color: #2a2600ff;
-
     font-family: 'Merienda';
-    font-size: x-large;
+    
 }
 
 /* targets global footer properties */
@@ -72,43 +75,8 @@ footer {
     position: Fixed;
     width: 100%;
     bottom: 0;
-    height: 100px;
+    min-height: 100px;
     z-index: 3;
     /* prioritises footer over page in the z -axis */
 }
 
-footer>span {
-    color: #77bfa3ff;
-    /* targets colour of navigation text*/
-}
-
-footer>a {
-    color: #77bfa3ff;
-    /* colour of link text*/
-
-
-}
-
-footer>a:link {
-    color: #002d00ff;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-footer>a:visited {
-    color: #002d00ff;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-footer>a:hover {
-    color: #98c9a3ff;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-footer > a:active {
-    color: #002d00ff;
-    background-color: transparent;
-    text-decoration: underline;
-}
