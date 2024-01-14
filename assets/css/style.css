@@ -14,15 +14,32 @@
 .logo {
     background-color: #002d00ff;
     background: url("../img/hd2-iStock-464324531.jpg");
-    min-height: 400px;
+    min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.black-box {
+  background-color: #2a26005f;  
+}
+
+
+/* ----headings----------*/
+.title-header {
+    color: #bfd8bdff;
+    font-family:  'Great Vibes', cursive;
+}
+
+.tagline-heading {
+    color: #77bfa3ff;
+    font-family:  'Radley', serif;
    
 }
 
-/*------------image abnd fomratting-------------*/
+
+/*------------image band and formatting-------------*/
+
 .bg-row-band{
 background-color: #002d00ff;
 
@@ -51,21 +68,13 @@ body {
  .loc-text-body {
     display:inline-block;
     padding-left: 5%;
- 
+    font-size: 24px;
  }
+/* padding grid should be=+1% to min height in footer */ 
+.loc-grid-padding{
+    padding-bottom: 11%;
+}  
 
-
-/* ----headings----------*/
-.title-header {
-    color: #77bfa3ff;
-    font-family:  'Great Vibes', cursive;
-}
-
-.tagline-heading {
-    color: #002d00ff;
-    font-family:  'Radley', serif;
-   
-}
 
 /* targets global footer properties */
 footer {
