@@ -54,6 +54,8 @@ body {
 }
  .loc-text-body {
     display:inline-block;
+    margin-left: 210px;
+    margin-right: 210px;
  }
 
 
