@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Karma&family=Radley&display=swap');
+
 /*
     --pakistan-green: #002d00ff;
     --drab-dark-brown: #2a2600ff;
@@ -19,17 +21,6 @@
 
    
 }
-/*.img1 {
-    background: url("../img/106390-v1200px.jpg");
-    min-height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 30vh;
-    margin-left: 1vw;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}*/
 
 /*------------image abnd fomratting-------------*/
 .bg-row-band{
@@ -40,44 +31,45 @@ background-color: #002d00ff;
 .loc-img-format {
     max-width: 90%;
     height: 90%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
     /* ----global settings----------*/
 body {
-    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
-
+    font-family: 'Karma', serif;
+    
 }
  .loc-text-body {
     display:inline-block;
-    margin-left: 210px;
-    margin-right: 210px;
+    padding-left: 5%;
+ 
  }
 
 
 /* ----headings----------*/
 .title-header {
     color: #77bfa3ff;
-    font-family: 'Roboto' ,'Trebuchet MS', sans-serif
+    font-family:  'Great Vibes', cursive;
 }
 
 .tagline-heading {
-    color: #2a2600ff;
-    font-family: 'Merienda';
-    
+    color: #002d00ff;
+    font-family:  'Radley', serif;
+   
 }
 
 /* targets global footer properties */
 footer {
     background-color: #98c9a3ff;
     position: Fixed;
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
     bottom: 0;
-    min-height: 100px;
+    min-height: 10%;
     z-index: 3;
     /* prioritises footer over page in the z -axis */
 }
