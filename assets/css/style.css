@@ -21,7 +21,7 @@
 }
 
 .black-box {
-  background-color: #2a26005f;  
+  background-color: #2a26006f;  
 }
 
 
@@ -68,13 +68,32 @@ body {
  .loc-text-body {
     display:inline-block;
     padding-left: 5%;
-    font-size: 24px;
+    font-size: 1.5em;
  }
 /* padding grid should be=+1% to min height in footer */ 
 .loc-grid-padding{
-    padding-bottom: 11%;
+    padding-top: 9%;
+    
 }  
-
+/* Gallery?FAQ text formattitng  */ 
+.loc-text-gallery-heading {
+    color: #2a2600ff;
+    font-family:  'Radley', serif;
+   
+}
+.loc-text-FAQ-Left {
+    
+   justify-content: left;
+    font-size:  1.4em;
+}
+.loc-text-FAQ-Right {
+    
+   justify-content: Right;
+    font-size: 1.4em;
+}
+.loc-img-format-galllery {
+    max-width: 100%;
+}
 
 /* targets global footer properties */
 footer {
