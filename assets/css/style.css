@@ -14,7 +14,7 @@
 .logo {
     background-color: #002d00ff;
     background: url("../img/hd2-iStock-464324531.jpg");
-    min-height: 450px;
+    min-height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +24,15 @@
   background-color: #2a26006f;  
 }
 
+
+.logo-form {
+    background-color: #002d00ff;
+    background: url("../img/iStock-464324555 (2).jpg");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* ----headings----------*/
 .title-header {
@@ -72,7 +81,7 @@ body {
  }
 /* padding grid should be=+1% to min height in footer */ 
 .loc-grid-padding{
-    padding-bottom:  20git push%;
+    padding-bottom:  300px;
     
 }  
 /* Gallery?FAQ text formattitng  */ 
@@ -99,12 +108,46 @@ body {
 footer {
     background-color: #98c9a3ff;
     position: Fixed;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
     bottom: 0;
-    min-height: 10%;
     z-index: 3;
     /* prioritises footer over page in the z -axis */
 }
 
+
+.loc-social-links {
+    padding-bottom: 5px;
+}
+
+.loc-social-links li a i {
+    width:48px;
+    height: 48px;
+    padding: 24px 0;
+    border-radius: 50%;
+    font-size: 32px;
+    line-height: 6px;
+    text-align: center;
+    color:#77bfa3ff ;
+    background: #bfd8bdff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.loc-social-links li a i:hover {
+    background: #002d006f;
+}
+
+.loc-footer-pad {
+    
+    padding: 5px;
+   }
+
+. {
+    font-family:  'Radley', serif;
+    font-size: 1.1em;
+
+}
