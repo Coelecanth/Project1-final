@@ -13,11 +13,11 @@
 /*-------------- referenced images in Header-----*/
 .logo {
     background-color: #002d00ff;
-    background: url("../img/hd2-iStock-464324531.jpg");
-    min-height: 500px;
+    background: url("../img/iStock-464324531-600.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 50vh;
 }
 
 .black-box {
@@ -38,6 +38,7 @@
 .title-header {
     color: #bfd8bdff;
     font-family:  'Great Vibes', cursive;
+    padding-top: 2%;
 }
 
 .tagline-heading {
