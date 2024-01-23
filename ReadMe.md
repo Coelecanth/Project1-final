@@ -2,10 +2,11 @@
 # Introduction 
    Alaska Fly fishing is a business which is a premium wilderness destination for people who enjoy fly-fishing for the native salmon and trout species of the northwest pacific coast in Alaska USA. It is operated and run from Anchorage in Alaska.    
 
-    the site Is there to attract the growing number of men and woman, who see idea of going to a remote wilderness location as a once in lifetime expereince 
-    The intened audience for the site is some one looking to fulfil that once in a lifetime trip to a destination in prime wilderness, even just having a n adventure to get there.  
-    who has interest in fulfilling a once in a lifetime adventure holiday to wildernes and fly fishing 
-    As the destination is very much driven by seasonal migration, as the Salmon and other species enter the river the pricing for this and the duration of the stay is custom built for the user, and would include some of the legs of the transport to the destination.    
+   The site is there to attract the growing number of men and woman, who see idea of going to a remote wilderness location as a once in lifetime expereince. 
+   So the intened audience for the site is some one looking who to fulfil that once in a lifetime adventure holiday to wildernes and fly fishing. 
+   To a destination in the wilderness, even just having an adventure to get there.  
+    
+   As the destination is very much driven by seasonal migration of the Salmon and other species as the times they enter the river, the pricing for this and the duration of the stay is custom built for the user, and would include the legs of the transport to the destination, after arriving at Anchorage.    
 
 # User Experiences (UX) - User Stories
 
@@ -31,7 +32,7 @@
 
     - I want to generate new business by getting users to contact the company, and book visits to us 
     - I want users to easily navigate through the site  
-    - At the conclusion of this acitivity be confident that users will contact the company
+    - At the conclusion of this acitivity be confident that vistors will contact the company
     - I want the site to show the this is quality experience, and provides good levels of comfort 
     - I want the site to show how Alaska fly fishing, takes away the complexity and uncertainiy of getting to the destination   
     - I want to encourage users to go to our social media pages which will help boost the profile of the company
@@ -48,7 +49,7 @@
 
     The main goal for the website is to get potential customers to engage and then book a visit to the wilderness Lodge of Alaska Fly fishing, by impressing upon on them them the following: 
     - The unique wilderness
-    - the excellent fly fishing avialable to them
+    - The excellent fly fishing avialable to them
     - Remove as much duress - show how Alaska fly fishing, takes away the complexity and uncertainiy of getting to the destination   
     - Be able to stay there in a high levelof  comfort  
     - Encouraging the visior to get in contact or stay in contact through subscribing to the news letter . 
@@ -112,7 +113,11 @@ https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd.
 
 # Images
 
-The images have been chosen 
+The images have been chosen to reflect the destination with pictures of fly fishing and fish, and the expereince of the wilderness. 
+the images were sourced from: 
+ - Istock https://www.istockphoto.com/
+ - From my personal picture collection
+
 
 # Icons
 
@@ -148,3 +153,22 @@ Screenshots
 
 https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd
 
+# Testing
+
+## Issue and Resolution
+
+### Slow rendering performance - index.html
+So when testing with lighthouse in the chrome browser I was getting consistenly slow download score  
+
+
+ - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible conection with file format or size. 
+ - Having researched this as to what causes rendering of 5 secs means, the explanation is that image is not really the issue. 
+ - It was bootstrap grid setting I have set of “container-fluid” which covers the whole width page of the row, in this case the image covers the whole row. 
+ - This causes the image to be resized excessively by the browser, Once I removed "fluid" element it all worked with massive reduction in rendering to approx. 1000 ms previous was 5000 ms. 
+ - So now realising what the issue is, that the browser is taking too long to resize this image, because it has to be stretched across a row. 
+ - I realised that the image needs to be made bigger in its pixel count from 700 to 1400px. To reduce the effort by the browser to resize. 
+ - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. Eg we just make 90% (Green) in lighthouse, 
+ but this is a tricky balancing act as making the image larger in pixel count makes it easier to render but longer to down load.
+
+
+![Lighthouse perfromance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")

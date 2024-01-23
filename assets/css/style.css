@@ -10,15 +10,16 @@
 */
 
  
-/*-------------- referenced images in Header-----*/
+/*-------------- referenced images in Header------*/
 .logo {
     background-color: #002d00ff;
-    background: url("../img/iStock-464324531-600.avif");
+    background: url("../img/iStock-464324531-1200.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
 }
+
 
 .black-box {
   background-color: #2a26006f;  
@@ -27,7 +28,7 @@
 
 .logo-form {
     background-color: #002d00ff;
-    background: url("../img/iStock-464324555 (2).jpg");
+    background: url("../img/iStock-464324555.avif");
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
