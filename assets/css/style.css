@@ -107,11 +107,9 @@ body {
 }
 
 /* targets global footer properties */
-footer {
+.loc-footer {
     background-color: #98c9a3ff;
     position: Fixed;
-    padding-top: 5px;
-    padding-bottom: 5px;
     width: 100%;
     bottom: 0;
     z-index: 3;
@@ -154,12 +152,5 @@ footer {
 
 }
 
-.loc-media-class {
-    display: none;
-}
 
-@media (max-width: 767.98px) {
-    .loc-media-class {
-        display: block;
-    }
-}
+
