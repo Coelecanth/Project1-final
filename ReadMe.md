@@ -58,45 +58,24 @@
 
     The sites goal of "luxury service and accomdation in the wilderness" means that the user gets the right sense that this is a high quality lodge with well established history, but also a friendly family owned and run business, which works with the local native communities and leaves little or no impact on the envioronment.   
     To establish the site provides high quality images applealing to the fly fisher. This will reinforce the goals and overall impression of a duress free visit with some excelleennt fly fishing staying in luxury accomadation. 
+## Skeleton
 
+To create the wireframes which are an initial outlay of the layout of the site. There were three frames created. Each frame representing a different device and each frame measured in pixels. This was done to show the responsiveness of the layout on different devices.
 
-### Scope
+Desktop (1920 x 1080)
+Tablet (1024 x 1366)
+Mobile (393 x 852)
+Wireframes
 
-The main features that will be implemented into the website will be included in 
-navigated via a single scrollable page.
+The wireframes were then built on by creating an actual fully designed site using the colour palette, fonts and images that were selected when initially scoping out the site. Planning and being as prepared as possible was the key reason for generating the full designs using figma.
 
-The design of the site should be friendly adopting an inviting feeling based on teh family business, but also be provide imagery and text to make th website applealing and stand out from the crowd in terms of other websites within the same industry. 
-A colour palette was chosen thats reflect a forest like feel with suitable greens and browns 
-The fonts selected at this point to help create this design.
+Having the design already laid out with the bulk of the main elements, like which colours work well together, which elements were coloured what, which font to use for what text, which images to use and where they are placed, having all these factors planned out makes the coding of the site easier to focus on and more straightforward.##
 
-### Homepage
+# Design
 
-This will offer a stand out navigation bar that will be fixed to bottom of the page so when scrolling through the site the user at any point can skip or go back to certain sections on the page. The hero image will be a backdrop flyfishing will which will be symaptehtic to the colour scheem 
-the image will be sized to balace between good and performance and high quality/defintion, so that we make sure load times on smaller devices are kept as low as possible and that we don't use too much of the users data.
-
-### FAQ page 
-
-We will use warm neutral colours with this section that will ultimately give the user a small but informative insight into the business, who we are, where we operate and what we offer.
-
-### Enquiry/newsletter form 
-
-
-
-
-### Footer
-
-    The footer will be fixed so as to allow user to browse regardless of where they on the page or site 
-    Contact
-
-    This will be where the user inputs there relevant information where they will be able to get in touch with the company. 
-    It will also contain a map indicating where the company is actually located.
-
-
-    The structure of the site consists of a single scrollable page rather than multiple separate pages. This should give a more accessible experience for all and by doing so will adopt a more mobile-first design which although market reserach for this business given the demographic and age of people, suggest a preference to use larget screen devices 
-    this provides better interest to  keep the user interested 
-
-
-
+The design of the site should be friendly adopting an inviting feeling based on the family business, but also provide imagery and text to make th website appealling and stand out from the crowd in terms of other websites within the same industry. 
+A colour palette was chosen thats reflect a forest like feel with suitable greens and browns. 
+The fonts selected were slected to creat a relaxed feel with good contrast.
 
 ## Colour scheme
 
@@ -107,11 +86,36 @@ https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd.
 ![Colour Pallete for fly fishing lodge](/assets/readme-img/colour-pal.jpg?raw=true "Colour palette")
     
 
-### Typography
+## Typography
+Fonts I used  were chosen from Fontjoy.com which provides a mechanism to mix and match together fonts to provide aestically pleasing results. 
+The following 3 fonts were chosen to provide good contrast in styles to each other and be symapthetic with the site and its function 
 
-    The font Poppins was chosen for the headers and the text that required more prominence. To find a font that would be used for the main body of the text was done via an online pairing tool called fontpair.co. Both these fonts are available at Google Fonts.
+- Great Vibes - a script like font used in all the main titles, as suggested in fontjoy 
+- Radley - used to provide contrast in all other heading as suggested in fontjoy 
+- Karma - used throughtour in the body as suggested in fontjoy 
 
-# Images
+The Karma font is the main font used throughout the whole website used in the body test of pages. 
+With Sans Serif as the fallback font (in case for any reason the font isn't being imported into the site correctly). 
+Karma is a clean font and differntitates strongly in compairison with great Vibes and is more complimnetary to Radley  
+
+The Radley font is used throughout for heading in the page to provide moderate contrast to Karma
+ and Highlight against XXX 
+the weight of the font was chosedn to be heavier to give a more bold appreance for headings .also used for Copyright
+
+An additiona font of Great Vibes is used in the hero banner to create a less formal feel to the website, with a backup font of cursive. 
+The font is a script like font and works well in larger sizes   
+
+All fonts were sourced and referebved from google fonts and imported in style.css 
+
+## Icons
+
+    The icons used are all found at Font Awesome. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. The icons on the footer used to identify the opening hours, address and telephone numbers are all easily appealing on the eye for the user.
+    Features
+    Navigation Bar
+    Screenshots
+
+
+## Images
 
 The images have been chosen to reflect the destination with pictures of fly fishing and fish, and the expereince of the wilderness. 
 the images were sourced from: 
@@ -119,16 +123,32 @@ the images were sourced from:
  - From my personal picture collection
 
 
-# Icons
+## Homepage
 
-    The icons used are all found at Font Awesome. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. The icons on the footer used to identify the opening hours, address and telephone numbers are all easily appealing on the eye for the user.
-    Features
-    Navigation Bar
-    Screenshots
+This will offer a stand out navigation bar that will be fixed to bottom of the page so when scrolling through the site the user at any point can skip or go back to certain sections on the page. The hero image will be a backdrop flyfishing will which will be symaptehtic to the colour scheem 
+the image will be sized to balace between good and performance and high quality/defintion, so that we make sure load times on smaller devices are kept as low as possible and that we don't use too much of the users data.
+
+## FAQ page 
+
+We will use warm neutral colours with this section that will ultimately give the user a small but informative insight into the business, who we are, where we operate and what we offer.
+
+## Enquiry/newsletter form 
+
+## Design Elements 
+
+### Footer/Navbar 
+
+    The footer will be fixed so as to allow user to browse regardless of where they on the page or site 
+    Contact
+
+    This will be where the user inputs there relevant information where they will be able to get in touch with the company. 
+    It will also contain a map indicating where the company is actually located.
+
+
+    The structure of the site consists of a single scrollable page rather than multiple separate pages. This should give a more accessible experience for all and by doing so will adopt a more mobile-first design which although market reserach for this business given the demographic and age of people, suggest a preference to use larget screen devices this provides better interest to  keep the user interested 
 
     
-## Hero
-## Screenshots
+### Hero Header
 
     The hero has a full width fixed image which has text that is fixed over it and darker tranapetn bar to add impact. 
     The image is responsive, targeting the main part of the image when it scales down. 
@@ -137,21 +157,46 @@ the images were sourced from:
     The user is introduced to the company and visiting the lodge with an image of a very enigmatic scene. The image really captures the essence of the fly fisher in being in an unspolit wilderness flishing, Transapernt bar helps to provide contrast but stops the image being broken up.
    
 
-About Us
-Screenshots
+## About Us
+## Screenshots
 
     The about us section is a simple layout which features the section header, a few paragraphs of text and the button that links to the contact section.
 
     The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.
 
+# Frameworks, Libraries & Programs Used
+## 1. [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+ - Bootstrap was used to assist with the responsiveness and styling of the website.
+
+## 2. [Font Awesome](https://fontawesome.com/) 
+ - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+## 3. [JSdeliver](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
+ - jSdeliver came with Bootstrap to make the navbar responsive, and is really only used for this aspect. It was deemed necessary, as at smaller screen sizes the icons depicted in the navbar consumend too much screen real estate. 
+
+## 4. [Git](https://git-scm.com/) 
+ - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+## 5. [GitHub:](https://github.com/) 
+ - GitHub is used to store the projects code after being pushed from Git.
+
+## 6. [GitPod](https://www.gitpod.io/)
+ - Gitpod was the IDE that i used to edit and build pages in. 
+
+ ## 7. [Squoosh](https://squoosh.app/)
+ -  Squooosh was used to conver the images from jpg to Avif, but also to resize the images to a more managable size to improve download speed and fit
+
+## 8. [Visio](https://support.microsoft.com/en-gb/office/install-visio-or-access-visio-for-the-web-f98f21e3-aa02-4827-9167-ddab5b025710) 
+ - Visio was used to create the wireframes during the design process. as this was a tool I am  very fmailar with and have license for. and I used this tool for expendency, over tools like Figma which would require me to learn. 
+
+## 9. [Google Fonts](#)
+
+## 10 [CSSGradient](#) 
+ - CSSGradient.io was used to generate css gradient backgrounds.
+
+## 11. [StackOverflow](https://stackoverflow.com/) 
+ - Stack overflow was invalauable resource I used for code validation, examples and research.
 
 
 
-
-
-![Colour Pallete for fly fishing lodge](./CollourPal.png)
-
-https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd
 
 # Testing
 
@@ -172,3 +217,33 @@ So when testing with lighthouse in the chrome browser I was getting consistenly 
 
 
 ![Lighthouse perfromance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
+
+
+
+### **GitHub Pages**
+
+GitHub pages were used to deploy this site.
+
+The steps to deploy the live site are:
+
++ In the GitHub repository navigate to the 'Settings' tab
++ On the left hand menu click on 'Pages'
++ Under Build and Deployment > Branch select 'main' and '/root'
++ Click save
++ The link to the live website will then be displayed at the top when successfully published
+
+### **Forking the GitHub Repository**
+
++ Go to the GitHub repository
++ Click on the fork button in the top right hand corner of the page
+
+### **Cloning the GitHub Repository**
+
++ Go the GitHub repository
++ Click on the 'Code' button
++ In the dropdown menu click on 'HTTPS'
++ Copy the link to the clipboard
++ Open Git Bash
++ Locate the desired directory where you want to place the cloned directory
++ Type 'git clone' and then paste the copied URL
++ Press 'enter' to create the clone
