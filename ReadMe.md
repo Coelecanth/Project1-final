@@ -200,6 +200,19 @@ We will use warm neutral colours with this section that will ultimately give the
 
 # Testing
 
+## Testing procedure 
+tst for rwspinsiveness
+
+
+test for speed see more below on this 
+-  Iphone XR 
+ - galaxy s20 
+ - Ipad mini 
+ - Kindle fire 
+ - Ipad Pro 
+ - Pc desktop With fire fox and chrome  
+
+
 ## Issue and Resolution
 
 ### Slow rendering performance - index.html
