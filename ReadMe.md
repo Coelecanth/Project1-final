@@ -1,3 +1,70 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Introduction](#introduction)
+- [User Experiences (UX) - User Stories](#user-experiences-ux---user-stories)
+  - [As a potential customer:](#as-a-potential-customer)
+  - [As the Business Owner:](#as-the-business-owner)
+  - [Strategy](#strategy)
+    - [Site Goals](#site-goals)
+  - [Skeleton](#skeleton)
+- [Design](#design)
+  - [Colour scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Icons](#icons)
+  - [Images](#images)
+  - [Homepage](#homepage)
+  - [FAQ page](#faq-page)
+  - [Enquiry/newsletter form](#enquirynewsletter-form)
+  - [Design Feature Elements](#design-feature-elements)
+    - [Footer/Navbar](#footernavbar)
+    - [Hero Header](#hero-header)
+  - [About Us](#about-us)
+  - [Screenshots](#screenshots)
+- [Languages](#languages)
+- [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+    - [1. Bootstrap 5.3](#1-bootstrap-53)
+    - [2. JSdeliver](#2-jsdeliver)
+    - [3. Font Awesome](#3-font-awesome)
+    - [4. Git](#4-git)
+    - [5. GitHub:](#5-github)
+    - [6. GitPod](#6-gitpod)
+    - [7. Squoosh](#7-squoosh)
+    - [8. Visio](#8-visio)
+    - [9. Google Fonts](#9-google-fonts)
+    - [10 CSSGradient](#10-cssgradient)
+    - [11. StackOverflow](#11-stackoverflow)
+- [Testing](#testing)
+    - [Testing procedure](#testing-procedure)
+    - [User Engagament](#user-engagament)
+    - [Resposiveness/Compatability](#resposivenesscompatability)
+    - [Device base](#device-base)
+    - [Browser Compatibility](#browser-compatibility)
+    - [MarkUp Validation - See mentor review - for address to below](#markup-validation---see-mentor-review---for-address-to-below)
+- [Test Results](#test-results)
+  - [Results -Browser Compatibility](#results--browser-compatibility)
+  - [Results-Resposiveness/Compatability](#results-resposivenesscompatability)
+      - [The Sizes set in Bootstrap are:](#the-sizes-set-in-bootstrap-are)
+      - [Devices Selected for Testing](#devices-selected-for-testing)
+    - [Expected Result and Outcome](#expected-result-and-outcome)
+      - [Index page](#index-page)
+          - [Hero image](#hero-image)
+          - [Image band](#image-band)
+    - [Results-Testing on Devices](#results-testing-on-devices)
+    - [Results-Speed and Resposiveness](#results-speed-and-resposiveness)
+    - [Results-MarkUp Validation](#results-markup-validation)
+- [Testing Issues and Resolution](#testing-issues-and-resolution)
+    - [Slow rendering performance - index.html](#slow-rendering-performance---indexhtml)
+    - [**GitHub Pages**](#github-pages)
+    - [**Forking the GitHub Repository**](#forking-the-github-repository)
+    - [**Cloning the GitHub Repository**](#cloning-the-github-repository)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+
+ 
 
 # Introduction 
    Alaska Fly fishing is a business which is a premium wilderness destination for people who enjoy fly-fishing for the native salmon and trout species of the northwest pacific coast in Alaska USA. It is operated and run from Anchorage in Alaska.    
@@ -206,16 +273,68 @@ We will use warm neutral colours with this section that will ultimately give the
 
 # Testing
 
-### Testing procedure 
-The following aspects of the site were specifically tested for 
+## High Level Test Strategy 
+    - Responsiveness -  tested across mutiple screen size devices 
+    - Speed to download and render 
+    - User testing - user interaction
 
-- Resposiveness/Compatability 
-   - resonsiveness -  tested across mutiple screen size devices 
-   - Speed to download and render 
-   - User testing - user interaction
+    - Browser Compatibility
+    - MarkUp Validation
 
- - Browser Compatibility
- - MarkUp Validation
+## Device base 
+The follwoing devices were tested against, these were selected to provide a broad but common base of devices,
+representing devices using IOS and Android with varying screen sizes  
+   
+
+    Emulated devices using Google Chrome emulator   
+    - Iphone XR 
+    - galaxy s20 
+    - Ipad mini 
+    - Kindle fire 
+    - Ipad Pro
+    Physical device 
+    - Pc desktop -  Firefox, Chrome, and IE
+    - Samsung s22 Ultra - Firefox and Chrome    
+
+### User Engagament 
+ #### First time User Testing 
+
+    1. As a First Time User of the site, I want to easily understand the purpose of the site and what services it can offer.
+    2. As a First Time User of the site, I want to be able to easily locate the information for considerations that I would want ,when planning/booking a trip such as this.
+     - these would include 
+         - What is the destinmation like 
+         - What fish can I catch? 
+         - When should i consider visting 
+         - Accomadation and levels of comfort
+         - How does this destination help me to achieve this trip more easliy
+
+     3. As a First Time User of the site, I want to be able to easily navigate throughout the site to understand details, and the services offered
+     4. As a First Time User of the site, I want to understand what their visitors think of them and see if they are trusted. 
+     5. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+Returning Visitor Goals
+
+    As a Returning Visitor, I want to find new or existing services.
+    As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    As a Returning Visitor, I want to find Community/Social links.
+
+Frequent User Goals
+
+    As a Frequent User, I want to be able to easily book my favourite services.
+    As a Frequent User, I want to check to see if there are any new results images to see work/improvements.
+    As a Frequent User, I want to have easy contact options to discuss my bookings.
+
+
+
+#### User testing 
+#### Owner testing
+
+
+
+
+
+
+
 
 ### Browser Compatibility
 The site was tested on the following browsers:
@@ -229,10 +348,59 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  - W3C Markup Validator - Results can be seen in TESTING.md including errors and final validation
 -  W3C CSS Validator - - Results can be seen in TESTING.md including errors and final validation
 
-### Device base 
-The follwoing devices were tested against, these were selected to provide a broad but common base of devices used 
-in particualr common devices using IOS and Android with varying screen sizes  
 
+
+# Test Results 
+
+## Results -Browser Compatibility
+On all three of the listed below browsers the site performed as predicted with no browsers issues found.
+ - Google Chrome
+ - Mozilla Firefox
+ - Microsoft Edge
+
+## Results-Resposiveness/Compatability 
+This group of testing was specifically targeted to make sure 
+that the site responded as it was designed to, with regard to the use of the Bootstrap grid.
+The tests were carried out across multiple devices (Emulated and Physical) with differing screen sizes, 
+which correspond to the following Bootstrap grid size e.g. Small Medium and Large.  
+
+#### The Sizes set in Bootstrap are:
+    - Small 	576px 
+    - Medium	≥768px
+    - Large 	≥992px
+
+#### Devices Selected for Testing 
+    The devices selected were 
+    - Small (virtual)
+    - Iphone XR 
+    - galaxy s20 
+    - Medium (virtual)
+    - Ipad mini 
+    - Kindle fire 
+    - Large 
+    - Ipad Pro (virtual)
+    - Pc desktop (Physical device ) -  Firefox, Chrome, and IE
+    
+### Expected Result and Outcome 
+####    Index page
+Applicable tests for Index.html 
+###### Hero image 
+    Expected outcome 
+    - the hero Immage and text would be resized and appropriatte across all devices 
+    Outcome 
+    - Resizing responsiveness of the text and iamge in the hero banner behaved as expected  
+###### Image band 
+        Expected outcome 
+        - small - The image would be stacked verically one over the other
+        - medium - The images would be stacked 2 over 1 (3rd image) 
+        - large - The 3 images would span across the page - horizontally   
+        Outcome 
+         - Resizing responsiveness was observed across all devices 
+
+
+
+## Results-Testing on Devices
+As was stated earklier 
 Emulated devices using Google Chrome emulator   
 -  Iphone XR 
  - galaxy s20 
@@ -241,19 +409,16 @@ Emulated devices using Google Chrome emulator
  - Ipad Pro
  Physical device 
  - Pc desktop -  Firefox, Chrome, and IE
- - Samsung s22 Ultra - Firefox and Chrome    
+ - Samsung s22 Ultra - Firefox and Chrome   
 
-# Test Results 
+## Results-Speed and Resposiveness
 
-### Results -Browser Compatibility
-On all three of the listed below browsers the site performed as predicted with no browsers issues found.
- - Google Chrome
- - Mozilla Firefox
- - Microsoft Edge
+## Results-MarkUp Validation 
+
 
 # Testing Issues and Resolution
 
-### Slow rendering performance - index.html
+## Slow rendering performance - index.html
 So when testing with lighthouse in the chrome browser I was getting consistenly slow download score  
 
 

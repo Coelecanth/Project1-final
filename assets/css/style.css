@@ -22,7 +22,7 @@
 
 .black-box {
     background: rgb(42,38,0);
-    background: linear-gradient(180deg, rgba(42,38,0,1) 50%, rgba(42,38,0,1) 55%, rgba(42,38,0,0) 100%);
+    background: linear-gradient(180deg, rgba(42,38,0,1) 0%, rgba(42,38,0,0.5) 65%, rgba(42,38,0,0) 100%);
   }
 
 /* --------------------headings--------------------*/
@@ -57,7 +57,7 @@
 
 .black-box-form {
     background: rgb(42,38,0);
-    background: linear-gradient(180deg, rgba(0,45,0,0.5) 0%, rgba(0,45,0,0.5) 50%, rgba(0,45,0,0.5) 100%);
+    background: linear-gradient(180deg, rgba(0,45,0,1) 0%, rgba(0,45,0,0.5) 98%, rgba(0,45,0,0) 100%);
   }
 
 
@@ -141,26 +141,24 @@ body {
 }
 
 .navbar-nav > li{
-    margin-left:15px;
-    padding-right:15px;
+    margin-left: 5px;
+    padding-right: 5px;
 }
 
 
 .loc-social-links li a i {
     padding-bottom: 5px;
-    padding-top: 24px; 
-    width:48px;
-    height: 48px;
+    padding-top: 16px; 
+    width:32px;
+    height: 32px;
     border-radius: 50%;
-    font-size: 32px;
-    line-height: 6px;
+    font-size: 24px;
+    line-height: 2px;
     text-align: center;
     color:#77bfa3ff ;
     background: #bfd8bdff;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+
 }
 
 .loc-social-links li a i:hover {
