@@ -169,34 +169,36 @@ We will use warm neutral colours with this section that will ultimately give the
 - CSS3 
 
 # Frameworks, Libraries & Programs Used
-## 1. [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
- - Bootstrap was used to assist with the responsiveness and styling of the website.
+### 1. [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+ - Bootstrap was used to assist with the capabiliites and responsiveness and styling of the website. It is sued extensively througout the site, and in addition the jscript element is also used see below.
 
-## 2. [Font Awesome](https://fontawesome.com/) 
- - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
-## 3. [JSdeliver](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
+ ### 2. [JSdeliver](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
  - jSdeliver came with Bootstrap to make the navbar responsive, and is really only used for this aspect. It was deemed necessary, as at smaller screen sizes the icons depicted in the navbar consumend too much screen real estate. 
 
-## 4. [Git](https://git-scm.com/) 
+### 3. [Font Awesome](https://fontawesome.com/) 
+ - Font Awesome was used throughout the website in the navbar to add icons for aesthetic and UX purposes. 
+### 4. [Git](https://git-scm.com/) 
  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-## 5. [GitHub:](https://github.com/) 
+### 5. [GitHub:](https://github.com/) 
  - GitHub is used to store the projects code after being pushed from Git.
 
-## 6. [GitPod](https://www.gitpod.io/)
+### 6. [GitPod](https://www.gitpod.io/)
  - Gitpod was the IDE that i used to edit and build pages in. 
 
- ## 7. [Squoosh](https://squoosh.app/)
- -  Squooosh was used to conver the images from jpg to Avif, but also to resize the images to a more managable size to improve download speed and fit
+ ### 7. [Squoosh](https://squoosh.app/)
+ -  Squooosh was used to perform the following functions 
+     - convery the images from jpg to Avif, 
+     - Also to resize the images to a more managable size to improve download speed and fit in the pages
 
-## 8. [Visio](https://support.microsoft.com/en-gb/office/install-visio-or-access-visio-for-the-web-f98f21e3-aa02-4827-9167-ddab5b025710) 
+### 8. [Visio](https://support.microsoft.com/en-gb/office/install-visio-or-access-visio-for-the-web-f98f21e3-aa02-4827-9167-ddab5b025710) 
  - Visio was used to create the wireframes during the design process. as this was a tool I am  very fmailar with and have license for. and I used this tool for expendency, over tools like Figma which would require me to learn. 
 
-## 9. [Google Fonts](#)
+### 9. [Google Fonts](#)
 
-## 10 [CSSGradient](#) 
+### 10 [CSSGradient](#) 
  - CSSGradient.io was used to generate css gradient backgrounds.
 
-## 11. [StackOverflow](https://stackoverflow.com/) 
+### 11. [StackOverflow](https://stackoverflow.com/) 
  - Stack overflow was invalauable resource I used for code validation, examples and research.
 
 
