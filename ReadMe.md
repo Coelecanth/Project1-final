@@ -134,7 +134,7 @@ We will use warm neutral colours with this section that will ultimately give the
 
 ## Enquiry/newsletter form 
 
-## Design Elements 
+## Design Feature Elements 
 
 ### Footer/Navbar 
 
@@ -163,6 +163,10 @@ We will use warm neutral colours with this section that will ultimately give the
     The about us section is a simple layout which features the section header, a few paragraphs of text and the button that links to the contact section.
 
     The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.
+
+# Languages
+- HTML5
+- CSS3 
 
 # Frameworks, Libraries & Programs Used
 ## 1. [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
@@ -200,33 +204,66 @@ We will use warm neutral colours with this section that will ultimately give the
 
 # Testing
 
-## Testing procedure 
-tst for rwspinsiveness
+### Testing procedure 
+The following aspects of the site were specifically tested for 
 
+- Resposiveness/Compatability 
+   - resonsiveness -  tested across mutiple screen size devices 
+   - Speed to download and render 
+   - User testing - user interaction
 
-test for speed see more below on this 
+ - Browser Compatibility
+ - MarkUp Validation
+
+### Browser Compatibility
+The site was tested on the following browsers:
+ - Google Chrome
+ - Mozilla Firefox
+ - Microsoft Edge
+
+ 
+### MarkUp Validation - See mentor review - for address to below 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+ - W3C Markup Validator - Results can be seen in TESTING.md including errors and final validation
+-  W3C CSS Validator - - Results can be seen in TESTING.md including errors and final validation
+
+### Device base 
+The follwoing devices were tested against, these were selected to provide a broad but common base of devices used 
+in particualr common devices using IOS and Android with varying screen sizes  
+
+Emulated devices using Google Chrome emulator   
 -  Iphone XR 
  - galaxy s20 
  - Ipad mini 
  - Kindle fire 
- - Ipad Pro 
- - Pc desktop With fire fox and chrome  
+ - Ipad Pro
+ Physical device 
+ - Pc desktop -  Firefox, Chrome, and IE
+ - Samsung s22 Ultra - Firefox and Chrome    
 
+# Test Results 
 
-## Issue and Resolution
+### Results -Browser Compatibility
+On all three of the listed below browsers the site performed as predicted with no browsers issues found.
+ - Google Chrome
+ - Mozilla Firefox
+ - Microsoft Edge
+
+# Testing Issues and Resolution
 
 ### Slow rendering performance - index.html
 So when testing with lighthouse in the chrome browser I was getting consistenly slow download score  
 
 
- - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible conection with file format or size. 
- - Having researched this as to what causes rendering of 5 secs means, the explanation is that image is not really the issue. 
- - It was bootstrap grid setting I have set of “container-fluid” which covers the whole width page of the row, in this case the image covers the whole row. 
- - This causes the image to be resized excessively by the browser, Once I removed "fluid" element it all worked with massive reduction in rendering to approx. 1000 ms previous was 5000 ms. 
- - So now realising what the issue is, that the browser is taking too long to resize this image, because it has to be stretched across a row. 
+ - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible connection with file format or size. 
+ - Having researched this as to what causes a rendering of 5 secs in the browser, the explanation is that image format and size is not really the issue. 
+ - It was bootstrap grid setting I have set of “container-fluid” which forces the browser to cover the whole width page of the row, in this case the image covers the whole row. 
+ - This causes the image to be resized excessively by the browser, 
+   - Once I removed "fluid" element as a test, the reduction in render was immediatte and worked with massive reduction in rendering to approx. 1000 ms (previous was 5000 ms). 
+ - So now realising what the issue is, as to why the browser is taking too long to resize this image, because it has to be stretched across a row. 
  - I realised that the image needs to be made bigger in its pixel count from 700 to 1400px. To reduce the effort by the browser to resize. 
- - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. Eg we just make 90% (Green) in lighthouse, 
- but this is a tricky balancing act as making the image larger in pixel count makes it easier to render but longer to down load.
+ - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. E.g. we can make 90% (Green) in lighthouse. 
+    - But this is a tricky balancing act; as making the image larger in pixel count makes it easier to render but longer to down load so careful testing and experimenatation were conducted to strike a good balance
 
 
 ![Lighthouse perfromance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
@@ -260,3 +297,8 @@ The steps to deploy the live site are:
 + Locate the desired directory where you want to place the cloned directory
 + Type 'git clone' and then paste the copied URL
 + Press 'enter' to create the clone
+
+
+
+
+
