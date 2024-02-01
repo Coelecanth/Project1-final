@@ -127,37 +127,27 @@
     To establish the site provides high quality images applealing to the fly fisher. This will reinforce the goals and overall impression of a duress free visit with some excelleennt fly fishing staying in luxury accomadation. 
 ## Skeleton
 
-To create the wireframes which are an initial outlay of the layout of the site. 
-There were three frames created. Each frame representing a different device and each frame measured in pixels. This was done to show the responsiveness of the layout on different devices.
-
-Desktop (1920 x 1080)
-Tablet (1024 x 1366)
-Mobile (393 x 852)
-
+    To create the overall design of this website I portryed the pages and there layout as wireframe using Microsoft Visio and showed the layout of the sites pages. 
+    There were three pages depicted and each set of depinctions show the page in its designed view eg Desktop, Tablet, Mobile.
+    This was done to show the responsiveness of the layout on different devices. Not all pages have a depiction for all  
+    sizes as the responsive requiremnt for each was differnt e.g. the forms page. As all pages would linked to each other through the use of the static Navbar 
+    the depiction of the links seemed uneccesary.  
+    
 ### Wireframes
 ![Wire Frames Colour For the  Fly fishing Lodge](/assets/readme-img/drawing1b-small.png?raw=true "Colour palette")
-    
-
-
-
-
-The wireframes were then built on by creating an actual fully designed site using the colour palette, fonts and images that were selected when initially scoping out the site. Planning and being as prepared as possible was the key reason for generating the full designs using figma.
-
-Having the design already laid out with the bulk of the main elements, like which colours work well together, which elements were coloured what, which font to use for what text, which images to use and where they are placed, having all these factors planned out makes the coding of the site easier to focus on and more straightforward.##
-
+ 
 # Design
 
-The design of the site should be friendly adopting an inviting feeling based on the family business, but also provide imagery and text to make th website appealling and stand out from the crowd in terms of other websites within the same industry. 
-A colour palette was chosen thats reflect a forest like feel with suitable greens
-and browns. 
-The fonts selected were slected to creat a relaxed feel with good contrast.
+   The wireframes were then built on by creating an actual fully designed site using the colour palette, fonts and images that were selected (these are detaile below) 
+   to repliocate what was shown in the wireframes.
 
-## 
+    Having the design already laid out with the bulk of the main elements, like which colours pallet I was using, then working the imaGES i WAS ABLWE TO DETERMIN FONT COLOURSA NA SIZES 
+    to use and where they are placed, having all these factors planned out makes the coding of the site easier to focus on and more straightforward.
 
 ## Colour scheme
 
     The colours within the chosen palette were chosen to provide a sympathetic colour represnrting the the typical colours found in a destination based in the Pacific north west forest region. Tints and Shades of these colours used are predominatly greens and browns with some leaning to blue. They were chosen using the site coolors.co located here 
-https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd. 
+    https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd. 
      
 
 ![Colour Pallete for fly fishing lodge](/assets/readme-img/colour-pal.jpg?raw=true "Colour palette")
@@ -235,11 +225,15 @@ We will use warm neutral colours with this section that will ultimately give the
    
 
 ## About Us
-## Screenshots
+
 
     The about us section is a simple layout which features the section header, a few paragraphs of text and the button that links to the contact section.
+    The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.#
 
-    The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.
+## FAQ PAge 
+
+## Web site Form 
+
 
 # Languages
 - HTML5
@@ -277,6 +271,8 @@ We will use warm neutral colours with this section that will ultimately give the
 
 ### 11. [StackOverflow](https://stackoverflow.com/) 
  - Stack overflow was invalauable resource I used for code validation, examples and research.
+ ### 12. Doc Toc 
+ - Doc Toc was invalauable tool for creating and modifying Document table of Contents in my Readme.
 
 
 
@@ -285,15 +281,14 @@ We will use warm neutral colours with this section that will ultimately give the
 
 ## High Level Test Strategy 
     - Responsiveness -  tested across mutiple screen size devices 
-    - Speed to download and render 
+    - Speed  - download and render 
     - User testing - user interaction
-
     - Browser Compatibility
     - MarkUp Validation
 
 ## Device base 
 The follwoing devices were tested against, these were selected to provide a broad but common base of devices,
-representing devices using IOS and Android with varying screen sizes  
+representing devices using IOS Android, Windows with varying screen sizes  
    
 
     Emulated devices using Google Chrome emulator   
@@ -303,7 +298,7 @@ representing devices using IOS and Android with varying screen sizes
     - Kindle fire 
     - Ipad Pro
     Physical device 
-    - Pc desktop -  Firefox, Chrome, and IE
+    - Pc desktop -  Firefox, Chrome, and Edge
     - Samsung s22 Ultra - Firefox and Chrome    
 
 ### User Engagament 
@@ -319,32 +314,9 @@ representing devices using IOS and Android with varying screen sizes
          - How does this destination help me to achieve this trip more easliy
 
      3. As a First Time User of the site, I want to be able to easily navigate throughout the site to understand details, and the services offered
-     4. As a First Time User of the site, I want to understand what their visitors think of them and see if they are trusted. 
+     4. As a First Time User of the site, I want to understand what their visitors to the fly fishing lodge think of them and see if they are trusted. 
      5. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-Returning Visitor Goals
-
-    As a Returning Visitor, I want to find new or existing services.
-    As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-    As a Returning Visitor, I want to find Community/Social links.
-
-Frequent User Goals
-
-    As a Frequent User, I want to be able to easily book my favourite services.
-    As a Frequent User, I want to check to see if there are any new results images to see work/improvements.
-    As a Frequent User, I want to have easy contact options to discuss my bookings.
-
-
-
-#### User testing 
-#### Owner testing
-
-
-
-
-
-
-
+     6. I want to engae with the the fly fishing to see people Expereinces and visits to them 
 
 ### Browser Compatibility
 The site was tested on the following browsers:
