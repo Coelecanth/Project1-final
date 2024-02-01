@@ -127,12 +127,19 @@
     To establish the site provides high quality images applealing to the fly fisher. This will reinforce the goals and overall impression of a duress free visit with some excelleennt fly fishing staying in luxury accomadation. 
 ## Skeleton
 
-To create the wireframes which are an initial outlay of the layout of the site. There were three frames created. Each frame representing a different device and each frame measured in pixels. This was done to show the responsiveness of the layout on different devices.
+To create the wireframes which are an initial outlay of the layout of the site. 
+There were three frames created. Each frame representing a different device and each frame measured in pixels. This was done to show the responsiveness of the layout on different devices.
 
 Desktop (1920 x 1080)
 Tablet (1024 x 1366)
 Mobile (393 x 852)
-Wireframes
+
+### Wireframes
+![Wire Frames Colour For the  Fly fishing Lodge](/assets/readme-img/drawing1b-small.png?raw=true "Colour palette")
+    
+
+
+
 
 The wireframes were then built on by creating an actual fully designed site using the colour palette, fonts and images that were selected when initially scoping out the site. Planning and being as prepared as possible was the key reason for generating the full designs using figma.
 
@@ -141,8 +148,11 @@ Having the design already laid out with the bulk of the main elements, like whic
 # Design
 
 The design of the site should be friendly adopting an inviting feeling based on the family business, but also provide imagery and text to make th website appealling and stand out from the crowd in terms of other websites within the same industry. 
-A colour palette was chosen thats reflect a forest like feel with suitable greens and browns. 
+A colour palette was chosen thats reflect a forest like feel with suitable greens
+and browns. 
 The fonts selected were slected to creat a relaxed feel with good contrast.
+
+## 
 
 ## Colour scheme
 
@@ -433,7 +443,7 @@ So when testing with lighthouse in the chrome browser I was getting consistenly 
     - But this is a tricky balancing act; as making the image larger in pixel count makes it easier to render but longer to down load so careful testing and experimenatation were conducted to strike a good balance
 
 
-![Lighthouse perfromance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
+![Lighthouse performance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
 
 
 

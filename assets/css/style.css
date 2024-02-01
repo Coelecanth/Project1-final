@@ -13,7 +13,7 @@
 /*-------------- referenced images in Header------*/
 .logo {
     background-color: #002d00ff;
-    background: url("../img/iStock-464324531-1200.avif");
+    background: url("../img/iStock-464324531-800.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,12 +105,12 @@ body {
     padding-left: 5%;
     font-size: 1.5em;
  }
-/* padding grid should be=+1% to min height in footer */ 
+/* padding grid should be set to min height in footer */ 
 .loc-grid-padding{
     padding-bottom:  200px;
     
 }  
-/* Gallery?FAQ text formattitng  */ 
+/* Gallery/FAQ text formattitng  */ 
 .loc-text-gallery-heading {
     color: #2a2600ff;
     font-family:  'Radley', serif;
