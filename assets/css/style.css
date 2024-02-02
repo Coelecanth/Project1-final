@@ -42,18 +42,27 @@
  .loc-text-para {
     display:inline-block;
     padding-left: 15px;
-    font-size: 1.5em;
+    padding-right:15px; 
+    font-size: 1.3em;
     color: #98c9a3ff;
     font-weight: 400;
  }
-.loc-text-form {
+ .loc-text-pricing {
     display:inline-block;
     padding-left: 15px;
-    font-size: 1.2em;
-    color: #98c9a3ff;
-    font-weight: 700;
-    
-}
+    padding-right:15px; 
+    font-size: 1.5em;
+    color: #bfd8bdff;
+    font-weight: 500;
+ }
+ .loc-text-field {
+    display:inline-block;
+    margin-left: 25px;
+    margin-right:15px; 
+    font-size: 1.0em;
+    color: #2a2600ff;
+    font-weight: 300;
+ }
 
 .black-box-form {
     background: rgb(42,38,0);
@@ -73,7 +82,7 @@
 
 
 
-/*------------image band and formatting-------------*/
+/*---------------------------image band and formatting-------------*/
 
 .bg-row-band{
 background-color: #002d00ff;
@@ -95,7 +104,7 @@ background-color: #002d00ff;
 }
 
 
-    /* ----global settings----------*/
+    /* ---------------------------------global settings----------*/
 body {
     font-family: 'Karma', serif;
     
@@ -110,7 +119,7 @@ body {
     padding-bottom:  200px;
     
 }  
-/* Gallery/FAQ text formattitng  */ 
+/* ---------------FAQ text formattitng ------------------------- */ 
 .loc-text-gallery-heading {
     color: #2a2600ff;
     font-family:  'Radley', serif;
@@ -130,7 +139,7 @@ body {
     max-width: 100%;
 }
 
-/* targets global footer properties */
+/* -targets global footer properties -*/
 .loc-footer {
     background-color: #98c9a3ff;
     position: Fixed;

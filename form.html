@@ -44,37 +44,31 @@
 		<div class="col-lg-1 col-md-1 ">
 
 		</div>
-		<div class="col loc-text-form black-box-form  border border-light rounded">
+		<div class="col loc-text-para black-box-form border border-success rounded">
 			<form action="https://formdump.codeinstitute.net" method="POST">
 				<br>
-				<p class="loc-text-para"> From this page you can join our newsletter enquire about pricing and
-					avialbility,<br>
-					and as all our visits are custom to you interms of accomadation transfers you can specify this all
-					here and we will do the rest for you </p>
+				<p class="loc-text-para"> Join our newsletter, or enquire about visiting the Fly fishiong Lodge here on
+					the contacts page,
+					or do both just select your interest from the menu </p>
 				<hr>
 				<fieldset>
-					<legend>Your details, and when you would like to visit</legend>
+					<legend>Please enter your details below: </legend>
+					<label for="name-field" class="loc-text-para">Full Name</label>
+					<input id="name-field" class="loc-text-field" type="text" name="full_name" placeholder="Your name" required>
 
-					<div class="">
-						<label for="name-field" class="">Name</label>
-						<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-					</div>
+					<label for="enquiry" class="loc-text-para">Email Address</label>
+					<input id="email-field" class="loc-text-field" type="email" name="email" placeholder="Your email" required>
 
-
-					<div class="">
-						<label for="enquiry" class="block-label">Email</label>
-						<input id="email-field" type="email" name="email" placeholder="Your email" required>
-					</div>
-					<label for="question" class="">Whats your Enquiry?</label><br>
-					<select id="dates" name="dates" required>
+					<hr>
+					<label for="enq-purpose" class="loc-text-para">What would you Like to do today?</label>
+					<select class="loc-text-field" id="enq-purpose" name="enq-purpose" required>
 						<option value="Enquiry">Enquiry</option>
 						<option value="Signup">Join News Letter</option>
+						<option value="Signup-Enquiry">Enquiry And Join News Letter</option>
 						<option value="Other">Other</option>
 					</select>
-					<hr><br>Specify if you would like to join our newsletter or Enquiry on pricing and avaialbility
-
-					<label for="dates" class="">Dates when you would like to come and visit</label><br>
-					<select id="dates" name="dates" required>
+					<label for="dates" class="loc-text-para">Month when you would like to come and visit</label>
+					<select class="loc-text-field" id="dates" name="dates" required>
 						<option value="May">May</option>
 						<option value="June">June</option>
 						<option value="July">July</option>
@@ -82,20 +76,29 @@
 						<option value="September">September</option>
 						<option value="Other">Other</option>
 					</select>
-
-
-
 				</fieldset>
+				<hr>
 				<fieldset>
-					<legend>Feedback</legend>
-					<label for="feedback" class="block-label">How can we help you ?</label>
+					<legend>Please enter what dates you would like to visit - and we will do the rest,
+						and we will be in touch with a prospective itinerary. Anything else? please feel to ask.
+					</legend>
+					<label for="Enquiry-text" class="block-label">Tell us what you need</label>
 					<br>
-					<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+					<textarea class="loc-text-field" id="Enquiry-text" rows="6" cols="90" name="Enquiry-text"></textarea>
 				</fieldset>
 
-				<input type="submit" class="block-label" value="Submit Request">
-				<input type="reset" value="Reset Form">
+				<input  class="loc-text-field" type="submit" class="block-label" value="Submit Request">
+				<input  class="loc-text-field" type="reset" value="Reset Form">
 			</form>
+			<hr>
+
+			<ul class="loc-text-pricing">
+				<p>Example pricing;</p>
+				<li>3 days fishing - premium season - $4500 </li>
+				<li>5 days fishing - premium season - $5500</li>
+				<li>7 days fishing - premium season - $6500</li>
+				<p>Includes all drinks, meals, guided fishing accommodation and all transfer to and from anchorage. </p>
+			</ul>
 
 
 		</div>
@@ -122,7 +125,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav d-flex flex-row "> 
+					<ul class="navbar-nav d-flex flex-row ">
 						<li class="nav-item">
 							<a class="nav-link" aria-current="page" href="index.html">
 								<i class="fa-solid fa-house text-dark" style="color: #002d005f;"></i></a>
@@ -132,8 +135,7 @@
 								<i class="fa-solid fa-plane text-dark" style="color: #002d005f;"></i></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="faq.html#whatToBring"
-								aria-label="Go to what to bring section">
+							<a class="nav-link" href="faq.html#whatToBring" aria-label="Go to what to bring section">
 								<i class="fa-solid fa-briefcase text-dark" style="color: #002d005f;"></i></a>
 						</li>
 						<li class="nav-item">
