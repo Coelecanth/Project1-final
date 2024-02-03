@@ -431,7 +431,12 @@ On all three of the listed below browsers in the final tests the site performed 
     JS event handler not firing reliably and so was beyond the scope of resolution.  
 
 ## Results-MarkUp Validation 
+    The HTML Markup was cheked using w3c Markup validation checker 
+    [w3c MarkUp Validation](https://validator.w3.org/#validate_by_uri)
 
+    When running this tool, there was a warning which advised to remove the <section> tag in faq.html page, 
+    as there was no Heading present. As this was intentional and the other option was to place it within 
+    <div> tag which was already had been done the <section> tag was removed.  
 
 # Testing Issues and Resolution
 
@@ -453,6 +458,7 @@ So when testing with lighthouse in the chrome browser I was getting consistenly 
  - This would some experimentation with each image as they differ in pixel size in there original formats to determine best fir for each image. 
  - Producing an image for each screen size per image  
  _ At the time of discovery this ther ewas not time to taake on this and include it intothe project, This would be definetly some thing to consider as next phase of development for this site. 
+
 
 
 ### **GitHub Pages**
