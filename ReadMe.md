@@ -440,6 +440,7 @@ On all three of the listed below browsers in the final tests the site performed 
 ![Test result - form.html](/assets/readme-img/gtm-form-210145.png?raw=true "form.html test result")
 
 ## Results-[W3c MarkUp Validation](https://validator.w3.org/#validate_by_uri)
+
     The HTML Markup was cheked using w3c Markup validation checker 
     
     When running this tool, there was a warning which advised to remove the <section> tag in faq.html page, 
