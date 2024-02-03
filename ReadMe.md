@@ -247,17 +247,13 @@
 
     The structure of the site consists of a single scrollable page rather than multiple separate pages. This should give a more accessible experience for all and by doing so will adopt a more mobile-first design which although market reserach for this business given the demographic and age of people, suggest a preference to use larget screen devices this provides better interest to  keep the user interested 
 
-    
-  
+# Technologies Used 
 
-
-
-
-# Languages
+## Languages
 - HTML5
 - CSS3 
 
-# Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 ### 1. [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
  - Bootstrap was used to assist with the capabiliites and responsiveness and styling of the website. It is sued extensively througout the site, and in addition the jscript element is also used see below.
 
@@ -325,7 +321,7 @@ representing devices using IOS Android, Windows with varying screen sizes
     1. As a First Time User of the site, I want to easily understand the purpose of the site and what services it can offer.
     2. As a First Time User of the site, I want to be able to easily locate the information for considerations that I would want ,when planning/booking a trip such as this.
      - these would include 
-         - What is the destinmation like 
+         - What is the destination like 
          - What fish can I catch? 
          - When should i consider visting 
          - Accomadation and levels of comfort
@@ -352,22 +348,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # Test Results 
 
-## Results -Browser Compatibility
-On all three of the listed below browsers the site performed as predicted with no browsers issues found.
+## Results-Browser Compatibility
+On all three of the listed below browsers in the final tests the site performed as predicted with no browsers issues found.
  - Google Chrome
  - Mozilla Firefox
  - Microsoft Edge
 
 ## Results-Resposiveness/Compatability 
-This group of testing was specifically targeted to make sure 
-that the site responded as it was designed to, with regard to the use of the Bootstrap grid.
-The tests were carried out across multiple devices (Emulated and Physical) with differing screen sizes, 
-which correspond to the following Bootstrap grid size e.g. Small Medium and Large.  
+    This group of testing was specifically targeted to make sure that the site responded as it was designed to, 
+    with regard to the use of the Bootstrap grid and responsiveness.
+    The tests were carried out across multiple devices (Emulated and Physical) with differing screen sizes, 
+    which correspond to the following Bootstrap grid size e.g. Small Medium and Large.  
 
-#### The Sizes set in Bootstrap are:
+### The Sizes set in Bootstrap are:
     - Small 	576px 
     - Medium	≥768px
     - Large 	≥992px
+### Outcome 
+    The site performed as predicted with final tests no browsers issues found.
 
 #### Devices Selected for Testing 
     The devices selected were 
@@ -380,38 +378,57 @@ which correspond to the following Bootstrap grid size e.g. Small Medium and Larg
     - Large 
     - Ipad Pro (virtual)
     - Pc desktop (Physical device ) -  Firefox, Chrome, and IE
-    
-### Expected Result and Outcome 
-####    Index page
-Applicable tests for Index.html 
-###### Hero image 
-    Expected outcome 
-    - the hero Immage and text would be resized and appropriatte across all devices 
-    Outcome 
+
+## Results-User testing
+    This group of testing was conducted to see if the wbsite met the criteris as stated in the User testing 
+    was conducted by a small number of users (family Memebrs)  who were not involved in the development of the site 
+    and were ask to use the site and then review the site based on the above test criteira 
+### Outcome 
+    The site performed as expected by users and the criteria and no issues were encountered in test phase.    
+### Additional user testing
+    During the whole developme of the site the userability of the site was one of the key considerations when it was being constructed and unit tested
+    so was subjected to thsi testing throughout the developemnt of the site.      
+
+## Results-Hero banner  
+    During the development of the site the functionality of the her Bnnae r was tested and retested to make it comply with eh design 
+    So was subjected to testing throughout the developemnt of the site. 
+### Expected outcome 
+    - the hero Immage and text would be resized and behave appropriattely across all devices and browsers
+### Outcome 
     - Resizing responsiveness of the text and iamge in the hero banner behaved as expected  
-###### Image band 
-        Expected outcome 
-        - small - The image would be stacked verically one over the other
-        - medium - The images would be stacked 2 over 1 (3rd image) 
-        - large - The 3 images would span across the page - horizontally   
-        Outcome 
-         - Resizing responsiveness was observed across all devices 
 
+## Results-Image band 
+    During the development of the site the functionality of the her Image band was tested and retested to make it comply with eh design 
+    So was subjected to testing throughout the developemnt of the site. 
+    The Expected behaviour is:        
+    - small - The image would be stacked verically one over the other
+    - medium - The images would be stacked 2 over 1 (3rd image) 
+    - large - The 3 images would span across the page - horizontally   
+### Outcome 
+     - Resizing responsiveness was observed across all devices 
+#### Test result Images 
+![Image band at large size ](/assets/readme-img/144347.png?raw=true "large size")
+    Image band at large size
+![Image band at medium size](/assets/readme-img/144513.png?raw=true "medium size")
+    Image band at Medium size
 
-
-## Results-Testing on Devices
-As was stated earklier 
-Emulated devices using Google Chrome emulator   
--  Iphone XR 
- - galaxy s20 
- - Ipad mini 
- - Kindle fire 
- - Ipad Pro
- Physical device 
- - Pc desktop -  Firefox, Chrome, and IE
- - Samsung s22 Ultra - Firefox and Chrome   
 
 ## Results-Speed and Resposiveness
+    The speed and rendering for the site were tested with Lighthouse and Gtmetrics tools
+
+### Outcome
+    Initally there was some downloading time issues observed which were corrected by 
+    converting all the images to avif and resizing the pixel to approx pixels per image (where possible) 
+
+    But post this the tools were still showing excessive rendering time of the images 
+    This was discovered to be a consequence of the use of bootstrap and and the number of images and pixel size
+    See Testing Issues for more information on this. 
+
+    Overall performance achieved was 80% or better in lighthousem, but could potentially be improved upon.   
+![speed and render test result](/assets/readme-img/151519.png?raw=true "speed test result")
+
+    Also noted here was the score for best practice from lighthouse this seemed to be attributed bootstrap 
+    JS event handler not firing reliably and so was beyond the scope of resolution.  
 
 ## Results-MarkUp Validation 
 
@@ -419,22 +436,23 @@ Emulated devices using Google Chrome emulator
 # Testing Issues and Resolution
 
 ## Slow rendering performance - index.html
-So when testing with lighthouse in the chrome browser I was getting consistenly slow download score  
-
-
- - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible connection with file format or size. 
- - Having researched this as to what causes a rendering of 5 secs in the browser, the explanation is that image format and size is not really the issue. 
- - It was bootstrap grid setting I have set of “container-fluid” which forces the browser to cover the whole width page of the row, in this case the image covers the whole row. 
- - This causes the image to be resized excessively by the browser, 
+So when testing with lighthouse in the chrome browser I was getting consistenly slow performance score  
+ - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible connection with file format or size. the downlaod speed of the actual file.
+ - Having researched this as to what causes slow rendering (of 5 secs in the browser), the explanation is that image format and size of the image is not really the issue. 
+ - It was bootstrap grid setting I have set of “container-fluid” which forces the browser to cover the whole width page of the row with the iamge, in this case the image covers the whole row. 
+ - This causes the image to be resized excessively by the browser.
    - Once I removed "fluid" element as a test, the reduction in render was immediatte and worked with massive reduction in rendering to approx. 1000 ms (previous was 5000 ms). 
- - So now realising what the issue is, as to why the browser is taking too long to resize this image, because it has to be stretched across a row. 
- - I realised that the image needs to be made bigger in its pixel count from 700 to 1400px. To reduce the effort by the browser to resize. 
+ - So now realising what the issue is, How to overome the browser taking too long to resize this image, eseentiall the image has to be stretched across a row. 
+ - I changed the image size, it seems the browser needs more effort to upscale it han down scale it, So i needed to make the image bigger in its pixel count, from 700 to 1400px. To reduce the effort by the browser to resize. 
  - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. E.g. we can make 90% (Green) in lighthouse. 
     - But this is a tricky balancing act; as making the image larger in pixel count makes it easier to render but longer to down load so careful testing and experimenatation were conducted to strike a good balance
-
-
 ![Lighthouse performance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
-
+ ### Alternative approach  
+ - Another approach to fixing this would be to use media queries across all responsive screen sizes (x3, small medium Large) for all images (x16) on the pages across the site. 
+ - So making the image size closer to the screen size to reduce the rendering. 
+ - This would some experimentation with each image as they differ in pixel size in there original formats to determine best fir for each image. 
+ - Producing an image for each screen size per image  
+ _ At the time of discovery this ther ewas not time to taake on this and include it intothe project, This would be definetly some thing to consider as next phase of development for this site. 
 
 
 ### **GitHub Pages**

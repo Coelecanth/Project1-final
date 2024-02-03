@@ -37,15 +37,20 @@
 
  /*----------- formatting for form/contact page------------------- */ 
  .tagline-heading-form {
-    color:  #98c9a3ff;
+    /*color:  #98c9a3ff; */
+    color:#77bfa3ff;
     font-family:  'Radley', serif;
  }
- 
+ .loc-text-h6 {
+    margin-top: 15px;
+    
+
+ }
  .loc-text-para {
     display:inline-block;
     padding-left: 15px;
     padding-right:15px; 
-    font-size: 1.1em;
+    font-size: 1.2rem;
     color: #98c9a3ff;
     font-weight: 400;
  }
@@ -53,7 +58,7 @@
     display:inline-block;
     margin-left: 20px;
     margin-right: 20px; 
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #bfd8bdff;
     font-weight: 500;
  }
@@ -67,14 +72,18 @@
  }
  .loc-text-textfield {
     display:inline-block;
-    font-size: 1.0em;
+    font-size: 1.0rem;
     color: #2a2600ff;
     font-weight: 300;
  }
 
 .black-box-form {
     background: rgb(42,38,0);
-    background: linear-gradient(180deg, rgba(0,45,0,1) 0%, rgba(0,45,0,0.5) 85%, rgba(0,45,0,0) 100%);
+    background: linear-gradient(180deg, rgba(0,45,0,0.9) 0%, rgba(0,45,0,0.7) 90%, rgba(0,45,0,0.4) 100%);
+  }
+.black-box-head {
+    background: rgb(42,38,0);
+    background: linear-gradient(180deg, rgba(42,38,0,0.9) 0%, rgba(42,38,0,0.5) 70%, rgba(42,38,0,0.3) 95%, rgba(42,38,0,0) 100%);
   }
 
 .logo-form {
