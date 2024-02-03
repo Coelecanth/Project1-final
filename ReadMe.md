@@ -125,54 +125,73 @@
 
     The sites goal of "luxury service and accomdation in the wilderness" means that the user gets the right sense that this is a high quality lodge with well established history, but also a friendly family owned and run business, which works with the local native communities and leaves little or no impact on the envioronment.   
     To establish the site provides high quality images applealing to the fly fisher. This will reinforce the goals and overall impression of a duress free visit with some excelleennt fly fishing staying in luxury accomadation. 
+
 ## Skeleton
 
-    To create the overall design of this website I portryed the pages and there layout as wireframe using Microsoft Visio and showed the layout of the sites pages. 
+    To create the overall design of this website I portryed the pages and there layout as wireframes using Microsoft Visio and showed the layout of the sites pages. 
     There were three pages depicted and each set of depinctions show the page in its designed view eg Desktop, Tablet, Mobile.
-    This was done to show the responsiveness of the layout on different devices. Not all pages have a depiction for all  
-    sizes as the responsive requiremnt for each was differnt e.g. the forms page. As all pages would linked to each other through the use of the static Navbar 
-    the depiction of the links seemed uneccesary.  
+    This was done to show the responsiveness of the layout on different devices, and how it was intended to work. Not all pages have a depiction for all sizes as the responsive requiremnt for each was differnt e.g. the forms page. As all pages would be linked to each other through the use of the fixed Navbar the depiction of the links seemed uneccesary.  
     
 ### Wireframes
-![Wire Frames Colour For the  Fly fishing Lodge](/assets/readme-img/drawing1b-small.png?raw=true "Colour palette")
+![Wire Frames Colour For the  Fly fishing Lodge](/assets/readme-img/wirfr1-small.png?raw=true "Colour palette")
  
 # Design
-
-   The wireframes were then built on by creating an actual fully designed site using the colour palette, fonts and images that were selected (these are detaile below) 
-   to repliocate what was shown in the wireframes.
-
-    Having the design already laid out with the bulk of the main elements, like which colours pallet I was using, then working the imaGES i WAS ABLWE TO DETERMIN FONT COLOURSA NA SIZES 
-    to use and where they are placed, having all these factors planned out makes the coding of the site easier to focus on and more straightforward.
+## Design developement 
+    From The wireframes creation, the development of the site was then delivered in the following steps 
+    Selection of: 
+    - Fonts - typograhy
+    - Colour scheme - selection of colour palette for the site 
+    - Icons - Icons required for the site  
+    - Images - Image selection for the site
+    - Build of the site - creating pages and then adding linking and features, and 
+    - Testing - Once the features, structure, had been established then clearer objectives for testing were created ad documented in the read.me (this document)
+    - Documenatation - this was doen throughout the process, adding the relevant comments in the site files and sections in the read.me (this document)  
+  
 
 ## Colour scheme
 
+    The overall design for the home page and FAQ page was to have a white backdrop where all the text and images were placed, this would be accentuated using the colours from the chosen palette with fonts, coloured bands (housing Images) navbar, transaprent coloured framing boxes. the only real exception to this was in the following 
+    - The hero banner section of each page 
+    - The conmtact/form page which uses an image as the complete background.   
+
+### Colour Palette
     The colours within the chosen palette were chosen to provide a sympathetic colour represnrting the the typical colours found in a destination based in the Pacific north west forest region. Tints and Shades of these colours used are predominatly greens and browns with some leaning to blue. They were chosen using the site coolors.co located here 
     https://coolors.co/002d00-2a2600-77bfa3-98c9a3-bfd8bd. 
      
 
 ![Colour Pallete for fly fishing lodge](/assets/readme-img/colour-pal.jpg?raw=true "Colour palette")
-    
+
+    The colour reference and there names are as follows:
+    - pakistan-green: #002d00ff;
+    - drab-dark-brown: #2a2600ff;
+    - cambridge-blue: #77bfa3ff;
+    - celadon: #98c9a3ff;
+    - tea-green: #bfd8bdff;
+
+    For reference and clarity these have been detailed in the style.css as a comment.
+
 
 ## Typography
-Fonts I used  were chosen from Fontjoy.com which provides a mechanism to mix and match together fonts to provide aestically pleasing results. 
-The following 3 fonts were chosen to provide good contrast in styles to each other and be symapthetic with the site and its function 
+    Fonts I used  were chosen from Fontjoy.com which provides a mechanism to mix and match together fonts to provide aestically pleasing results. 
 
-- Great Vibes - a script like font used in all the main titles, as suggested in fontjoy 
-- Radley - used to provide contrast in all other heading as suggested in fontjoy 
-- Karma - used throughtour in the body as suggested in fontjoy 
+    The following 3 fonts were chosen to provide good contrast in styles to each other and be symapthetic with the site and its function 
 
-The Karma font is the main font used throughout the whole website used in the body test of pages. 
-With Sans Serif as the fallback font (in case for any reason the font isn't being imported into the site correctly). 
-Karma is a clean font and differntitates strongly in compairison with great Vibes and is more complimnetary to Radley  
+    - Great Vibes - a script like font used in all the main titles, as suggested in fontjoy 
+    - Radley - used to provide contrast in all other heading as suggested in fontjoy 
+    - Karma - used throughtour in the body as suggested in fontjoy 
 
-The Radley font is used throughout for heading in the page to provide moderate contrast to Karma
- and Highlight against XXX 
-the weight of the font was chosedn to be heavier to give a more bold appreance for headings .also used for Copyright
+    The Karma font is the main font used throughout the whole website used in the body test of pages. 
+    With Sans Serif as the fallback font (in case for any reason the font isn't being imported into the site correctly). 
+    Karma is a clean font and differntitates strongly in compairison with great Vibes and is more complimnetary to Radley  
 
-An additiona font of Great Vibes is used in the hero banner to create a less formal feel to the website, with a backup font of cursive. 
-The font is a script like font and works well in larger sizes   
+    The Radley font is used throughout for heading in the page to provide moderate contrast to Karma
+    and Highlight against XXX 
+    the weight of the font was chosedn to be heavier to give a more bold appreance for headings .also used for Copyright
 
-All fonts were sourced and referebved from google fonts and imported in style.css 
+    An additiona font of Great Vibes is used in the hero banner to create a less formal feel to the website, with a backup font of cursive. 
+    The font is a script like font and works well in larger sizes   
+
+    All fonts were sourced and referenced from google fonts and imported in the style.css 
 
 ## Icons
 
@@ -184,26 +203,40 @@ All fonts were sourced and referebved from google fonts and imported in style.cs
 
 ## Images
 
-The images have been chosen to reflect the destination with pictures of fly fishing and fish, and the expereince of the wilderness. 
-the images were sourced from: 
- - Istock https://www.istockphoto.com/
- - From my personal picture collection
+    The images have been chosen to reflect the destination with pictures of fly fishing and fish, and the experience of the wilderness. This was by far, one of the most challenging tasks of completing this project. As the images needed to be very specific to fit the content of site. Because of this very specific nature of the images required, I used some of my personal pictures from previous trips i have made, to supplement the stock imagery. This was because of the scarcity of the right type of images. 
+
+    The images were sourced from: 
+    - Istock https://www.istockphoto.com/
+    - From my personal picture collection
+
+## Home Page (index.html)
+    Hero banner uses a background that was chosen to be enigmatic and sympathetic to the site, and would complement the overall colour to the sites colour palette.
+
+    To increase contrast (with the light coloured font colour) and also visual appeal, a transparent  darkened bar was envisaged to overlay across the top half of the hero image to include the site heading and tagline, increase contrast against light coloured font colours. After initial implementation of the bar, the effect it provided gave the intended impact and contrast, but it was felt to be somewhat distracting as being a box it had a very distinct defined finish. This detracted from overall enigmatic scene. For this this reason the transparent box was replaced, with a box with a transparent coloured gradient box running from top to bottom (dark to light, using one of the darker palette colours). This provided the necessary contrast but provided a much more subtle effect and more in keeping with overall image impact.
+    The page also  utilises a coloured bar with images contained in it which is responsive so as viewport is changed, so does the image configuration (as shown in the wire frames). The bar was designed to reinforce the visual impact of the site with high quality images of fly fishing experience and locations 
+   
+### About Us
+    The about us section in the home page, provides is a simple layout which features the section header, a few paragraphs of text and the button that links to the contact section.
+    The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.#
 
 
-## Homepage
+## FAQ Page (Faq.html) 
 
-This will offer a stand out navigation bar that will be fixed to bottom of the page so when scrolling through the site the user at any point can skip or go back to certain sections on the page. The hero image will be a backdrop flyfishing will which will be symaptehtic to the colour scheem 
-the image will be sized to balace between good and performance and high quality/defintion, so that we make sure load times on smaller devices are kept as low as possible and that we don't use too much of the users data.
+    The faq page contains the more detailed explanation as to waht the business offers. Where As the home page is more about the highlights and the most immediatte information FAQ page provided the more substantial detail as to what the destination and services that are offered by the Fly fishing Lodge. 
+    To this end the FAQ adopts a layout to section the topics into easy to read chunks, with the ability to extend this if there were other services or information neeeded to be provided without breaking the overall desigmn and there fore interest and impact.    
+    The faq contains an image collection and text which is split into horizontal rows which consume the screen estate in a one third two to third ratio. 
+    The rows alternate in aspect eg 1/3-2/3 second row 2/3-1/3, and so keeps alternating down the page. This creates a visually pleasing arrangement. The text consumes 1/3 and the image 2/3. 
+    each of the images shown next to the coresponding text has direct relevance to the subject e.g. the expalantion as to how you travel to the lodge shows a float plane and guests next to it. 
 
-## FAQ page 
 
-We will use warm neutral colours with this section that will ultimately give the user a small but informative insight into the business, who we are, where we operate and what we offer.
+## Contact - Enquiry/newsletter Page (Forms.html) 
 
-## Enquiry/newsletter form 
+    The design for the form departed from the white background of the other pages. The design was to have a background enigmatic fly fishing scene which covers the forms page. The hero image was dropped as the inclusion of both would create visual chaos and would have been detrimental to the overall appeal. 
+    The forms  page uses the full background image of fly fishing scene which is very much in keepings with site. 
+    As this image now differs from hero Image background the  transparent coloured gradient box for the text headline and tagline for the banner had to be altered to give a more balanced contrast. 
+    So the gradient was altered to provide better contrast against the different colour image background, the changes made were to give a darker colour and more contrast,  The tagline heading colour was also changed to again promote good contrast and readability with the colour palette available.  
 
-## Design Feature Elements 
-
-### Footer/Navbar 
+## Footer/Navbar 
 
     The footer will be fixed so as to allow user to browse regardless of where they on the page or site 
     Contact
@@ -215,24 +248,9 @@ We will use warm neutral colours with this section that will ultimately give the
     The structure of the site consists of a single scrollable page rather than multiple separate pages. This should give a more accessible experience for all and by doing so will adopt a more mobile-first design which although market reserach for this business given the demographic and age of people, suggest a preference to use larget screen devices this provides better interest to  keep the user interested 
 
     
-### Hero Header
-
-    The hero has a full width fixed image which has text that is fixed over it and darker tranapetn bar to add impact. 
-    The image is responsive, targeting the main part of the image when it scales down. 
-    the image was souced from Istock 
-    
-    The user is introduced to the company and visiting the lodge with an image of a very enigmatic scene. The image really captures the essence of the fly fisher in being in an unspolit wilderness flishing, Transapernt bar helps to provide contrast but stops the image being broken up.
-   
-
-## About Us
+  
 
 
-    The about us section is a simple layout which features the section header, a few paragraphs of text and the button that links to the contact section.
-    The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.#
-
-## FAQ PAge 
-
-## Web site Form 
 
 
 # Languages

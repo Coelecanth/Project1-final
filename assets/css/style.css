@@ -1,16 +1,14 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Karma&family=Radley&display=swap');
-
-/*
-    --pakistan-green: #002d00ff;
-    --drab-dark-brown: #2a2600ff;
-    --cambridge-blue: #77bfa3ff;
-    --celadon: #98c9a3ff;
-    --tea-green: #bfd8bdff;
+ /* colour palette
+    pakistan-green: #002d00ff;
+    drab-dark-brown: #2a2600ff;
+    cambridge-blue: #77bfa3ff;
+    celadon: #98c9a3ff;
+    tea-green: #bfd8bdff;
 */
-
+/*---------import fonts from Google---*/ 
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Karma&family=Radley&display=swap');
  
-/*-------------- referenced images in Header------*/
+/*-------------- referenced images in Hero Header------*/
 .logo {
     background-color: #002d00ff;
     background: url("../img/iStock-464324531-800.avif");
@@ -19,13 +17,12 @@
     background-size: cover;
     min-height: 50vh;
 }
-
 .black-box {
     background: rgb(42,38,0);
-    background: linear-gradient(180deg, rgba(42,38,0,1) 0%, rgba(42,38,0,0.5) 8git push 5%, rgba(42,38,0,0) 100%);
+    background: linear-gradient(180deg, rgba(42,38,0,1) 0%, rgba(42,38,0,0.5) 85%, rgba(42,38,0,0) 100%);
   }
 
-/* --------------------headings--------------------*/
+/* --------------------hero headings--------------------*/
 .title-header {
     color: #bfd8bdff;
     font-family:  'Great Vibes', cursive;
@@ -38,12 +35,17 @@
    
 }
 
- /*----------- formatting for form------------------- */ 
+ /*----------- formatting for form/contact page------------------- */ 
+ .tagline-heading-form {
+    color:  #98c9a3ff;
+    font-family:  'Radley', serif;
+ }
+ 
  .loc-text-para {
     display:inline-block;
     padding-left: 15px;
     padding-right:15px; 
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #98c9a3ff;
     font-weight: 400;
  }
@@ -69,13 +71,11 @@
     color: #2a2600ff;
     font-weight: 300;
  }
- 
 
 .black-box-form {
     background: rgb(42,38,0);
-    background: linear-gradient(180deg, rgba(0,45,0,1) 0%, rgba(0,45,0,0.5) 98%, rgba(0,45,0,0) 100%);
+    background: linear-gradient(180deg, rgba(0,45,0,1) 0%, rgba(0,45,0,0.5) 85%, rgba(0,45,0,0) 100%);
   }
-
 
 .logo-form {
     background-color: #002d00ff;
@@ -85,15 +85,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-
-/*---------------------------image band and formatting-------------*/
-
+/*--------------------image band and formatting-------------*/
 .bg-row-band{
 background-color: #002d00ff;
-
 }
 
 .loc-img-format {
@@ -104,24 +98,16 @@ background-color: #002d00ff;
     margin-left: 5%;
     margin-right: 5%;
 }
-.loc-img-gallery {
-    max-width: 100%;
-    height: 100%;
-
-}
-
-
-    /* ---------------------------------global settings----------*/
+/* ---------------------global settings across all pages----------*/
 body {
     font-family: 'Karma', serif;
-    
 }
  .loc-text-body {
     display:inline-block;
     padding-left: 5%;
     font-size: 1.5em;
- }
-/* padding grid should be set to min height in footer */ 
+}
+/* padding grid should be set to height to match footer */ 
 .loc-grid-padding{
     padding-bottom:  200px;
     
@@ -130,23 +116,36 @@ body {
 .loc-text-gallery-heading {
     color: #2a2600ff;
     font-family:  'Radley', serif;
-   
 }
 .loc-text-FAQ-Left {
-    
+    margin-top: 10px;
+    margin-left: 20px; 
+   margin-right: 20px;
    justify-content: left;
-    font-size:  1.4em;
+   font-size:  1.1rem;
 }
 .loc-text-FAQ-Right {
-    
+    margin-top: 10px;
+    margin-left: 20px; 
+    margin-right: 20px;
    justify-content: Right;
-    font-size: 1.4em;
+   font-size:  1.1rem;
 }
-.loc-img-format-galllery {
-    max-width: 100%;
+.loc-text-faq-center {
+    margin-top: 10px;
+    margin-left: 20px; 
+    margin-right: 20px;
+   justify-content: center;
+   font-size:  1.1rem;
 }
 
-/* -targets global footer properties -*/
+.loc-img-format-gallery {
+    width: 100%;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ------------targets global footer properties ------------*/
 .loc-footer {
     background-color: #98c9a3ff;
     position: Fixed;
@@ -155,12 +154,11 @@ body {
     z-index: 3;
     /* prioritises footer over page in the z -axis */
 }
-
+    /* --- trgets icons in navbar for effects ----*/
 .navbar-nav > li{
     margin-left: 5px;
     padding-right: 5px;
 }
-
 
 .loc-social-links li a i {
     padding-bottom: 5px;
@@ -174,7 +172,6 @@ body {
     color:#77bfa3ff ;
     background: #bfd8bdff;
     transition: all 0.35s ease-in-out;
-
 }
 
 .loc-social-links li a i:hover {
