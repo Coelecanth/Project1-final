@@ -414,14 +414,14 @@ On all three of the listed below browsers in the final tests the site performed 
 
 
 ## Results-Speed and Resposiveness
-    The speed and rendering for the site were tested with Lighthouse and Gtmetrics tools
+    The speed and rendering for the site were tested with Lighthouse and Gtmetrix tools
 
-### Outcome
+#### Lighthouse testing 
     Initally there was some downloading time issues observed which were corrected by 
     converting all the images to avif and resizing the pixel to approx pixels per image (where possible) 
 
-    But post this the tools were still showing excessive rendering time of the images 
-    This was discovered to be a consequence of the use of bootstrap and and the number of images and pixel size
+    Post file conversersion the tool wwas still showing excessive rendering time of the images 
+    This was discovered to be a consequence of the use of bootstrap fluid parameter and and the number of images and pixel size
     See Testing Issues for more information on this. 
 
     Overall performance achieved was 80% or better in lighthousem, but could potentially be improved upon.   
@@ -430,10 +430,18 @@ On all three of the listed below browsers in the final tests the site performed 
     Also noted here was the score for best practice from lighthouse this seemed to be attributed bootstrap 
     JS event handler not firing reliably and so was beyond the scope of resolution.  
 
-## Results-MarkUp Validation 
-    The HTML Markup was cheked using w3c Markup validation checker 
-    [w3c MarkUp Validation](https://validator.w3.org/#validate_by_uri)
+#### [GtMetrix](https://gtmetrix.com/) Testing 
+    When the site was tested with GtMetrix; the tool reported back, the site had good performance for all pages.  
+    The recommendations for improvement FAQ page did state that the performance could be improved by declaring statics sizes for the images on the page, but this would directly impact the pages responsiveness. 
+    results are as shown below
 
+![Test result - index.html](/assets/readme-img/gtm-index2-203849.png?raw=true "index.html test result")
+![Test result - faq.html](/assets/readme-img/gtm-ifaq-203849.png?raw=true "faq.html test result")
+![Test result - form.html](/assets/readme-img/gtm-form-210145.png?raw=true "form.html test result")
+
+## Results-[W3c MarkUp Validation](https://validator.w3.org/#validate_by_uri)
+    The HTML Markup was cheked using w3c Markup validation checker 
+    
     When running this tool, there was a warning which advised to remove the <section> tag in faq.html page, 
     as there was no Heading present. As this was intentional and the other option was to place it within 
     <div> tag which was already had been done the <section> tag was removed.  
