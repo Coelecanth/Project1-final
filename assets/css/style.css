@@ -10,15 +10,17 @@
  
 /*-------------- referenced images in Hero Header------*/
 .logo {
-    background-color: #002d00ff;
+    /*--apply background in case image does not load, with contrasting colour-----*/
+    background-color: #002d00ff; 
     background: url("../img/iStock-464324531-800.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
 }
+ /*--apply background gradeint to give subtle fade on Hero Banner for index, and FAQ-----*/
 .black-box {
-    background: rgb(42,38,0);
+   background: rgb(42,38,0);
     background: linear-gradient(180deg, rgba(42,38,0,1) 0%, rgba(42,38,0,0.5) 85%, rgba(42,38,0,0) 100%);
   }
 
@@ -43,9 +45,7 @@
  }
  .loc-text-h6 {
     margin-top: 15px;
-    
-
- }
+}
  .loc-text-para {
     display:inline-block;
     padding-left: 15px;
@@ -76,17 +76,19 @@
     color: #2a2600ff;
     font-weight: 300;
  }
-
+   /*--apply background gradient to give subtle tranapreant view for forms field-----*/
 .black-box-form {
-    background: rgb(42,38,0);
+    background: rgb(0,45,0);
     background: linear-gradient(180deg, rgba(0,45,0,0.9) 0%, rgba(0,45,0,0.7) 90%, rgba(0,45,0,0.4) 100%);
   }
+ /*--apply background gradeint to give subtle fade on Hero Banner for Forms page-----*/
 .black-box-head {
     background: rgb(42,38,0);
     background: linear-gradient(180deg, rgba(42,38,0,0.9) 0%, rgba(42,38,0,0.5) 70%, rgba(42,38,0,0.3) 95%, rgba(42,38,0,0) 100%);
   }
 
 .logo-form {
+    /*--apply background in case image does not load, with contrasting colour-----*/
     background-color: #002d00ff;
     background: url("../img/iStock-464324555.avif");
     background-attachment: fixed; 

@@ -1,6 +1,6 @@
 <h1 align="center">Stewart Gibbons Project 1 - The Fly Fishing Lodge </h1>
 
-<h2 align="center" ><img src="assets/readme-img/RM-ban-211904.png"></h2>
+<h2 align="center" ><img src="assets/readme-img/rm-ban-211904.png"></h2>
 
 
 This is the main marketing and sales site for the fictiuos fly fishing out fitters in Alaska called "The Fly Fihing Lodge". The site was  designed to be responsive and usable on a range of devices, making it easy and accessible for all propective visitors to the The Fly Fishing Lodge. The site consists 3 pages a home/landing page (index), which is built to encourage visitors to further explore. A Faq page which further builds on the visitor experience, and delves into the detail of what the business offers, and then a contact/form page which allows users to keep in contact with the site, through signing up to the newsletter and pricing with either the example pricing on the page or buy asking for a personalised quote.
@@ -238,6 +238,8 @@ The site will present and use responsive elemensts to provide in a structured, r
     - From my personal picture collection
 
 ## Home Page (index.html)
+<img src="assets/readme-img/rm-ban2-211904.png">
+
     The structure of the index page consists of a single scrollable page rather than short page with mutiple linked resources. 
     To improve UX expereince the index page provides short introduction with impact, to the sites services/business. the page provides pointers to other areas containing the detail on the site. 
     
@@ -253,9 +255,10 @@ The site will present and use responsive elemensts to provide in a structured, r
     The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the FAQ or are directed via the navbar to the contacts page for pricing and quotes. A the first time user of the site is most unlikely to go straight to pricing before understanding the serive the deciasion was made to provide the link to the contact page from NavBar. 
 
 ## FAQ Page (Faq.html) 
+
+<img src="assets/readme-img/rm-faq-211905.png">
+    
     The faq page contains the more detailed explanation as to what the business offers. Where As the home page is more about the highlights and the most immediatte information FAQ page provided the more substantial detail as to what the destination and services that are offered by the Fly fishing Lodge. 
-
-
 
     To this end the FAQ adopts a layout to section the topics into easy to read chunks, with the ability to extend this if there were other services or information neeeded to be provided without breaking the overall desigmn and there fore interest and impact.    
     The faq contains an image collection and text which is split into horizontal rows which consume the screen estate in a one third two to third ratio. 
@@ -267,15 +270,18 @@ The site will present and use responsive elemensts to provide in a structured, r
 
 
 ## Contact - Enquiry/newsletter Page (Forms.html) 
+<img src="assets/readme-img/rm-form-211906.png">
 
-    The design for the form departed from the white background of the other pages. The design was to have a background enigmatic fly fishing scene which covers the forms page. The hero image was dropped as the inclusion of both would create visual chaos and would have been detrimental to the overall appeal. 
-    The forms  page uses the full background image of fly fishing scene which is very much in keepings with site. 
-    As this image now differs from hero Image background the  transparent coloured gradient box for the text headline and tagline for the banner had to be altered to give a more balanced contrast. 
+    The design for the form departed from the white background of the other pages. The design was to have a enigmatic fly fishing background scene which covers the forms page. 
+    The hero image banner was dropped as the inclusion of both would background image and a sperate her banner image would create visual chaos and would have been detrimental to the overall UX. 
+    The forms page uses the full background image of fly fishing scene which is very much in keepings with site. 
+    As this image now differs in colours from hero Image background the transparent coloured gradient box for the text headline and tagline for the banner had to be altered to give a more balanced contrast. 
     So the gradient was altered to provide better contrast against the different colour image background, the changes made were to give a darker colour and more contrast,  The tagline heading colour was also changed to again promote good contrast and readability with the colour palette available.  
 
 ## Footer/Navbar 
 
-    The footer will be fixed so as to allow user to move between pages regardless of where they on the page or site. The navigation items will be icons sourced from font awesome using there libraries and CDN.   
+    The footer will be fixed so as to allow user to move between pages regardless of where they on the page or site. This combined with the matching Navbar colour, will provide a seemless look to the nav?footer fixed to the bottom of the page. 
+    The navigation items will be icons sourced from font awesome using there libraries and CDN.   
     The Navigartion bar will use Bootstrap to provide responsive for screen size using the navbar toggler, that means that at reduced screen sizes a menu will appear and only show icons once clicked,  the item will be shown horizontally across the screen to reduce the screen estate consumed in the mobile view. 
      
 # Technologies Used 
@@ -497,14 +503,15 @@ On all three of the listed below browsers in the final tests the site performed 
     - I changed the image size, it seems the browser needs more effort to upscale it han down scale it, So i needed to make the image bigger in its pixel count, from 700 to 1400px. To reduce the effort by the browser to resize. 
     - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. E.g. we can make 90% (Green) in lighthouse. 
         - But this is a tricky balancing act; as making the image larger in pixel count makes it easier to render but longer to down load so careful testing and experimenatation were conducted to strike a good balance
-    ![Lighthouse performance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
+
+![Lighthouse performance](assets/readme-img/lighthouse-xr.jpg?raw=true "test performance")
 
 ### Alternative approach  
-    - Another approach to fixing this would be to use media queries across all responsive screen sizes (x3, small medium Large) for all images (x16) on the pages across the site. 
-    - So making the image size closer to the screen size to reduce the rendering. 
-    - This would some experimentation with each image as they differ in pixel size in there original formats to determine best fir for each image. 
-    - Producing an image for each screen size per image  
-    _ At the time of discovery this ther ewas not time to taake on this and include it intothe project, This would be definetly some thing to consider as next phase of development for this site. 
+    - Another approach to fixing this would be to use media queries across all responsive screen sizes (x3, small, medium, Large) for all images (x16) on the pages across the site. 
+    - So making the image size closer to the screen size to reduce the rendering in the browser. 
+    - The Gtmetrix toolset referred to this as a resolution, but it would have to be used with Media queries to make it workable as a responsive solution. 
+    - This would require some experimentation with each image (or even replacemnt of an image) as they differ in pixel size in there original formats. It would require resizing to different sizes and assessing the load speed, rendering speed, quality of the image and also if this is viable solution. 
+    - At the time of discovery this there was not time to take on this task and include it into the project, This would be definetly some thing to consider as next phase of development for this site. 
 
 
 # Deployment 
