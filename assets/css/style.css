@@ -12,7 +12,7 @@
 .logo {
     /*--apply background in case image does not load, with contrasting colour-----*/
     background-color: #002d00ff; 
-    background: url("../img/iStock-464324531-800.avif");
+    background: url("../img/istock-464324531-800.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +90,7 @@
 .logo-form {
     /*--apply background in case image does not load, with contrasting colour-----*/
     background-color: #002d00ff;
-    background: url("../img/iStock-464324555.avif");
+    background: url("../img/istock-464324555.avif");
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ background-color: #002d00ff;
     margin-left: 5%;
     margin-right: 5%;
 }
-/* ---------------------global settings across all pages----------*/
+/* ---------------------General page settings----------*/
 body {
     font-family: 'Karma', serif;
 }
@@ -118,7 +118,8 @@ body {
     padding-left: 5%;
     font-size: 1.5em;
 }
-/* padding grid should be set to height to match footer */ 
+
+/* ----- this is applied across all pages - padding grid should be set to height to match footer---- */ 
 .loc-grid-padding{
     padding-bottom:  200px;
     
