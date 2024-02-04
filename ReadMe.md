@@ -1,7 +1,21 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+<h1 align="center">Stewart Gibbons Project 1 - The Fly Fishing Lodge </h1>
 
+<h2 align="center" ><img src="assets/readme-img/RM-ban-211904.png"></h2>
+
+
+This is the main marketing and sales site for the fictiuos fly fishing out fitters in Alaska called "The Fly Fihing Lodge". The site was  designed to be responsive and usable on a range of devices, making it easy and accessible for all propective visitors to the The Fly Fishing Lodge. The site consists 3 pages a home/landing page (index), which is built to encourage visitors to further explore. A Faq page which further builds on the visitor experience, and delves into the detail of what the business offers, and then a contact/form page which allows users to keep in contact with the site, through signing up to the newsletter and pricing with either the example pricing on the page or buy asking for a personalised quote.
+
+the site utilises Bootstrap libraries througout to mak ethe site responsive using 
+- Grid function - colum/row
+- Responsive headings fonts and styles 
+- Responsive images
+- Responsive form settings   
+
+The site will present and use responsive elemensts to provide in a structured, readable, easy to navigate web site, thats works across mutiple screen sizes, devices. To provide a good UX experince.
+
+[View the live project here.](https://coelecanth.github.io/Project1-final/)
+
+## **Table of Contents**  
 - [Introduction](#introduction)
 - [User Experiences (UX) - User Stories](#user-experiences-ux---user-stories)
   - [As a potential customer:](#as-a-potential-customer)
@@ -220,19 +234,22 @@
     - From my personal picture collection
 
 ## Home Page (index.html)
+    The structure of the index page consists of a single scrollable page rather than short page with mutiple linked resources. 
+    To improve UX expereince the index page provides short introduction with impact, to the sites services/business. the page provides pointers to other areas containing the detail on the site. 
+    
+    This should give a more accessible experience for all and by doing so will adopt a more mobile-first design. Although market reserach for this business, givens its demographic and age of people (50+ years and skilled professional), would suggest a preference to use larger screen devices, so lending to the idea of providing high quality images to enforce the expereince of what is on offer from the siyte. 
+### Hero Banner
     Hero banner uses a background that was chosen to be enigmatic and sympathetic to the site, and would complement the overall colour to the sites colour palette.
 
     To increase contrast (with the light coloured font colour) and also visual appeal, a transparent  darkened bar was envisaged to overlay across the top half of the hero image to include the site heading and tagline, increase contrast against light coloured font colours. After initial implementation of the bar, the effect it provided gave the intended impact and contrast, but it was felt to be somewhat distracting as being a box it had a very distinct defined finish. This detracted from overall enigmatic scene. For this this reason the transparent box was replaced, with a box with a transparent coloured gradient box running from top to bottom (dark to light, using one of the darker palette colours). This provided the necessary contrast but provided a much more subtle effect and more in keeping with overall image impact.
     The page also  utilises a coloured bar with images contained in it which is responsive so as viewport is changed, so does the image configuration (as shown in the wire frames). The bar was designed to reinforce the visual impact of the site with high quality images of fly fishing experience and locations 
    
-### About Us
-    The about us section in the home page, provides is a simple layout which features the section header, a few paragraphs of text and the button that links to the contact section.
-    The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the contact section of the page.#
-
+### About Us Section 
+    The about us section in the home page, provides is a simple layout which features the a header, a few paragraphs of text and the button blow the text that links to the FAQ section.
+    The user will be given a brief introduction as to who the company are, what they can expect from the company and allow them to go straight to the FAQ or are directed via the navbar to the contacts page for pricing and quotes. A the first time user of the site is most unlikely to go straight to pricing before understanding the serive the deciasion was made to provide the link to the contact page from NavBar. 
 
 ## FAQ Page (Faq.html) 
-
-    The faq page contains the more detailed explanation as to waht the business offers. Where As the home page is more about the highlights and the most immediatte information FAQ page provided the more substantial detail as to what the destination and services that are offered by the Fly fishing Lodge. 
+    The faq page contains the more detailed explanation as to what the business offers. Where As the home page is more about the highlights and the most immediatte information FAQ page provided the more substantial detail as to what the destination and services that are offered by the Fly fishing Lodge. 
     To this end the FAQ adopts a layout to section the topics into easy to read chunks, with the ability to extend this if there were other services or information neeeded to be provided without breaking the overall desigmn and there fore interest and impact.    
     The faq contains an image collection and text which is split into horizontal rows which consume the screen estate in a one third two to third ratio. 
     The rows alternate in aspect eg 1/3-2/3 second row 2/3-1/3, and so keeps alternating down the page. This creates a visually pleasing arrangement. The text consumes 1/3 and the image 2/3. 
@@ -248,57 +265,52 @@
 
 ## Footer/Navbar 
 
-    The footer will be fixed so as to allow user to browse regardless of where they on the page or site 
-    Contact
-
-    This will be where the user inputs there relevant information where they will be able to get in touch with the company. 
-    It will also contain a map indicating where the company is actually located.
-
-
-    The structure of the site consists of a single scrollable page rather than multiple separate pages. This should give a more accessible experience for all and by doing so will adopt a more mobile-first design which although market reserach for this business given the demographic and age of people, suggest a preference to use larget screen devices this provides better interest to  keep the user interested 
-
+    The footer will be fixed so as to allow user to move between pages regardless of where they on the page or site. The navigation items will be icons sourced from font awesome using there libraries and CDN.   
+    The Navigartion bar will use Bootstrap to provide responsive for screen size using the navbar toggler, that means that at reduced screen sizes a menu will appear and only show icons once clicked,  the item will be shown horizontally across the screen to reduce the screen estate consumed in the mobile view. 
+     
 # Technologies Used 
 
 ## Languages
-- HTML5
-- CSS3 
+1. HTML5
+1. CSS3 
 
 ## Frameworks, Libraries & Programs Used
 ### 1. [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
- - Bootstrap was used to assist with the capabiliites and responsiveness and styling of the website. It is sued extensively througout the site, and in addition the jscript element is also used see below.
+    - Bootstrap was used to assist with the capabiliites and responsiveness and styling of the website. It is sued extensively througout the site, and in addition the jscript element is also used see below.
 
- ### 2. [JSdeliver](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
- - jSdeliver came with Bootstrap to make the navbar responsive, and is really only used for this aspect. It was deemed necessary, as at smaller screen sizes the icons depicted in the navbar consumend too much screen real estate. 
+### 2. [JSdeliver](https://getbootstrap.com/docs/5.3/getting-started/introduction/)  
+     - jSdeliver came with Bootstrap to make the navbar responsive, and is really only used for this aspect. It was deemed necessary, as at smaller screen sizes the icons depicted in the navbar consumend too much screen real estate. 
 
 ### 3. [Font Awesome](https://fontawesome.com/) 
- - Font Awesome was used throughout the website in the navbar to add icons for aesthetic and UX purposes. 
+     - Font Awesome was used throughout the website in the navbar to add icons for aesthetic and UX purposes. 
 ### 4. [Git](https://git-scm.com/) 
- - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 ### 5. [GitHub:](https://github.com/) 
- - GitHub is used to store the projects code after being pushed from Git.
+     - GitHub is used to store the projects code after being pushed from Git.
 
 ### 6. [GitPod](https://www.gitpod.io/)
- - Gitpod was the IDE that i used to edit and build pages in. 
+     - Gitpod was the IDE that i used to edit and build pages in. 
 
  ### 7. [Squoosh](https://squoosh.app/)
- -  Squooosh was used to perform the following functions 
-     - convery the images from jpg to Avif, 
-     - Also to resize the images to a more managable size to improve download speed and fit in the pages
-
+    -  Squooosh was used to perform the following functions 
+        - convert the images from jpg to Avif 
+        - Also to resize (reduce pixel count) the images to a more managable size to improve download speed and fit in the pages
 ### 8. [Visio](https://support.microsoft.com/en-gb/office/install-visio-or-access-visio-for-the-web-f98f21e3-aa02-4827-9167-ddab5b025710) 
- - Visio was used to create the wireframes during the design process. as this was a tool I am  very fmailar with and have license for. and I used this tool for expendency, over tools like Figma which would require me to learn. 
-
-### 9. [Google Fonts](#)
-
-### 10 [CSSGradient](#) 
- - CSSGradient.io was used to generate css gradient backgrounds.
-
+     - Visio was used to create the wireframes during the design process. as this was a tool I am  very fmailar with and have license for. and I used this tool for expendency, over tools like Figma which would require me to learn. 
+### 9. [Google Fonts](https://fonts.google.com/)
+    - Google fonts was used to source the fonts that were sleected from FontAwesome. 
+### 10 [CSSGradient](https://cssgradient.io/) 
+    - CSSGradient.io was used to generate css gradient backgrounds.
 ### 11. [StackOverflow](https://stackoverflow.com/) 
- - Stack overflow was invalauable resource I used for code validation, examples and research.
- ### 12. Doc Toc 
- - Doc Toc was invalauable tool for creating and modifying Document table of Contents in my Readme.
+    - Stack overflow was an invaluable resource I used for code validation, examples and research.
+### 12. [DocToc](https://github.com/thlorenz/doctoc) 
+    - DocToc was an invaluable tool for creating and modifying Document table of Contents in my Readme.md
+### 13. [FontJoy](https://fontjoy.com/)
+     - Font joy was used in the design process to create a palette of fonts, 
+    
+**Quote** from https://fontjoy.com/  
 
-
+ *The goal of font pairing is to select fonts that share an overarching theme yet have a pleasing contrast. Which fonts work together is largely a matter of intuition, but we approach this problem with a neural net.*
 
 
 # Testing
@@ -343,16 +355,16 @@ representing devices using IOS Android, Windows with varying screen sizes
      6. I want to engae with the the fly fishing to see people Expereinces and visits to them 
 
 ### Browser Compatibility
-The site was tested on the following browsers:
- - Google Chrome
- - Mozilla Firefox
- - Microsoft Edge
+    The site was tested on the following browsers:
+    - Google Chrome
+    - Mozilla Firefox
+    - Microsoft Edge
 
  
 ### MarkUp Validation - See mentor review - for address to below 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
- - W3C Markup Validator - Results can be seen in TESTING.md including errors and final validation
--  W3C CSS Validator - - Results can be seen in TESTING.md including errors and final validation
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - W3C Markup Validator - Results can be seen in TESTING.md including errors and final validation
+    -  W3C CSS Validator - - Results can be seen in TESTING.md including errors and final validation
 
 
 
@@ -417,14 +429,17 @@ On all three of the listed below browsers in the final tests the site performed 
 ### Outcome 
      - Resizing responsiveness was observed across all devices 
 #### Test result Images 
-![Image band at large size ](/assets/readme-img/144347.png?raw=true "large size")
+
     Image band at large size
-![Image band at medium size](/assets/readme-img/144513.png?raw=true "medium size")
+
+![Image band at large size ](/assets/readme-img/144347.png?raw=true "large size")
+    
     Image band at Medium size
 
-
+![Image band at medium size](/assets/readme-img/144513.png?raw=true "medium size")
+    
 ## Results-Speed and Resposiveness
-    The speed and rendering for the site were tested with Lighthouse and Gtmetrix tools
+    The speed and rendering for the site were tested with Lighthouse and [GtMetrix](https://gtmetrix.com/) tools
 
 #### Lighthouse testing 
     Initally there was some downloading time issues observed which were corrected by 
@@ -443,10 +458,12 @@ On all three of the listed below browsers in the final tests the site performed 
 #### [GtMetrix](https://gtmetrix.com/) Testing 
     When the site was tested with GtMetrix; the tool reported back, the site had good performance for all pages.  
     The recommendations for improvement FAQ page did state that the performance could be improved by declaring statics sizes for the images on the page, but this would directly impact the pages responsiveness. 
-    results are as shown below
+    The results are as shown below
 
-![Test result - index.html](/assets/readme-img/gtm-index2-203849.png?raw=true "index.html test result")
+![Test result - index.html](/assets/readme-img/gtm-index2-203849.png?raw=true "index.html test result") 
+
 ![Test result - faq.html](/assets/readme-img/gtm-ifaq-203849.png?raw=true "faq.html test result")
+
 ![Test result - form.html](/assets/readme-img/gtm-form-210145.png?raw=true "form.html test result")
 
 ## Results-[W3c MarkUp Validation](https://validator.w3.org/#validate_by_uri)
@@ -460,26 +477,27 @@ On all three of the listed below browsers in the final tests the site performed 
 # Testing Issues and Resolution
 
 ## Slow rendering performance - index.html
-So when testing with lighthouse in the chrome browser I was getting consistenly slow performance score  
- - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible connection with file format or size. the downlaod speed of the actual file.
- - Having researched this as to what causes slow rendering (of 5 secs in the browser), the explanation is that image format and size of the image is not really the issue. 
- - It was bootstrap grid setting I have set of “container-fluid” which forces the browser to cover the whole width page of the row with the iamge, in this case the image covers the whole row. 
- - This causes the image to be resized excessively by the browser.
-   - Once I removed "fluid" element as a test, the reduction in render was immediatte and worked with massive reduction in rendering to approx. 1000 ms (previous was 5000 ms). 
- - So now realising what the issue is, How to overome the browser taking too long to resize this image, eseentiall the image has to be stretched across a row. 
- - I changed the image size, it seems the browser needs more effort to upscale it han down scale it, So i needed to make the image bigger in its pixel count, from 700 to 1400px. To reduce the effort by the browser to resize. 
- - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. E.g. we can make 90% (Green) in lighthouse. 
-    - But this is a tricky balancing act; as making the image larger in pixel count makes it easier to render but longer to down load so careful testing and experimenatation were conducted to strike a good balance
-![Lighthouse performance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
- ### Alternative approach  
- - Another approach to fixing this would be to use media queries across all responsive screen sizes (x3, small medium Large) for all images (x16) on the pages across the site. 
- - So making the image size closer to the screen size to reduce the rendering. 
- - This would some experimentation with each image as they differ in pixel size in there original formats to determine best fir for each image. 
- - Producing an image for each screen size per image  
- _ At the time of discovery this ther ewas not time to taake on this and include it intothe project, This would be definetly some thing to consider as next phase of development for this site. 
+    So when testing with lighthouse in the chrome browser I was getting consistenly slow performance score  
+    - I changed all the images in the page to avif from jpg to reduce there size, and re-run the tests and it was still slow to render (not load). This removed any possible connection with file format or size. the downlaod speed of the actual file.
+    - Having researched this as to what causes slow rendering (of 5 secs in the browser), the explanation is that image format and size of the image is not really the issue. 
+    - It was bootstrap grid setting I have set of “container-fluid” which forces the browser to cover the whole width page of the row with the iamge, in this case the image covers the whole row. 
+    - This causes the image to be resized excessively by the browser.
+    - Once I removed "fluid" element as a test, the reduction in render was immediatte and worked with massive reduction in rendering to approx. 1000 ms (previous was 5000 ms). 
+    - So now realising what the issue is, How to overome the browser taking too long to resize this image, eseentiall the image has to be stretched across a row. 
+    - I changed the image size, it seems the browser needs more effort to upscale it han down scale it, So i needed to make the image bigger in its pixel count, from 700 to 1400px. To reduce the effort by the browser to resize. 
+    - Having changed the image to this pixel count and saved as an Avif. I have acceptable performance. E.g. we can make 90% (Green) in lighthouse. 
+        - But this is a tricky balancing act; as making the image larger in pixel count makes it easier to render but longer to down load so careful testing and experimenatation were conducted to strike a good balance
+    ![Lighthouse performance](assets/readme-img/lighthouse-xr.jpg?raw=true "Colour palette")
+
+### Alternative approach  
+    - Another approach to fixing this would be to use media queries across all responsive screen sizes (x3, small medium Large) for all images (x16) on the pages across the site. 
+    - So making the image size closer to the screen size to reduce the rendering. 
+    - This would some experimentation with each image as they differ in pixel size in there original formats to determine best fir for each image. 
+    - Producing an image for each screen size per image  
+    _ At the time of discovery this ther ewas not time to taake on this and include it intothe project, This would be definetly some thing to consider as next phase of development for this site. 
 
 
-
+# Deployment 
 ### **GitHub Pages**
 
 GitHub pages were used to deploy this site.
@@ -508,7 +526,13 @@ The steps to deploy the live site are:
 + Type 'git clone' and then paste the copied URL
 + Press 'enter' to create the clone
 
+# Acknowledgements
 
+- Mentor support at Code Institute for their support.
+
+- Tutor for continuous helpful input and feedback
+
+- Friends and family for valuable insights and feedback
 
 
 
