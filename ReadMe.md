@@ -219,10 +219,14 @@ The site will present and use responsive elemensts to provide in a structured, r
 
 ## Icons
 
-    The icons used are all found at Font Awesome. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. The icons on the footer used to identify the opening hours, address and telephone numbers are all easily appealing on the eye for the user.
-    Features
+    The icons used are all found at Font Awesome. Having icons as the social media links immediately allows the user to easily identify which social media platform is which. 
+    
+ 
+    the icons are used mostly in the navigation bar 
     Navigation Bar
     Screenshots
+
+           address and telephone numbers are all easily appealing on the eye for the user.
 
 
 ## Images
@@ -250,10 +254,16 @@ The site will present and use responsive elemensts to provide in a structured, r
 
 ## FAQ Page (Faq.html) 
     The faq page contains the more detailed explanation as to what the business offers. Where As the home page is more about the highlights and the most immediatte information FAQ page provided the more substantial detail as to what the destination and services that are offered by the Fly fishing Lodge. 
+
+
+
     To this end the FAQ adopts a layout to section the topics into easy to read chunks, with the ability to extend this if there were other services or information neeeded to be provided without breaking the overall desigmn and there fore interest and impact.    
     The faq contains an image collection and text which is split into horizontal rows which consume the screen estate in a one third two to third ratio. 
     The rows alternate in aspect eg 1/3-2/3 second row 2/3-1/3, and so keeps alternating down the page. This creates a visually pleasing arrangement. The text consumes 1/3 and the image 2/3. 
-    each of the images shown next to the coresponding text has direct relevance to the subject e.g. the expalantion as to how you travel to the lodge shows a float plane and guests next to it. 
+
+    Each of the images shown next to the coresponding text, has direct relevance to the subject e.g. the expalantion as to how you travel to the lodge shows a float plane and guests next to it. 
+
+    The only exception to this layout was Contact details for the business, (located at the bottom of the faq page) which use the whole screen estate available and are shown in larger fonts to make this prominent to the user and thus enhancing the UX experience. it was tried with 1/3-2/3 approach, but this seemed to detract from layout of the information (eg it felt squashed) and the image detracted from the prominence of the information.  
 
 
 ## Contact - Enquiry/newsletter Page (Forms.html) 

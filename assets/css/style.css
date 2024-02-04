@@ -94,7 +94,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*--------------------image band and formatting-------------*/
+/*--------------------index image band and formatting-------------*/
 .bg-row-band{
 background-color: #002d00ff;
 }
@@ -154,6 +154,22 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+.loc-faq-contact {
+    
+    font-size:  1.2rem;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+.loc-faq-details {
+        color: #2a2600ff;
+        font-family:  'Radley', serif;
+        margin-left: 20px; 
+        margin-right: 20px;
+       justify-content:left;
+       font-size:  1.5rem;
+    }
+
+
 /* ------------targets global footer properties ------------*/
 .loc-footer {
     background-color: #98c9a3ff;
