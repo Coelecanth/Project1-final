@@ -116,7 +116,7 @@ body {
  .loc-text-body {
     display:inline-block;
     padding-left: 5%;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 /* ----- this is applied across all pages - padding grid should be set to height to match footer---- */ 
