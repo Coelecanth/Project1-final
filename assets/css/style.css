@@ -124,6 +124,13 @@ body {
     padding-bottom:  200px;
     
 }  
+.loc-para-padding{
+    padding-bottom:  25px;
+    
+}  
+
+
+
 /* ---------------FAQ text formattitng ------------------------- */ 
 .loc-text-gallery-heading {
     color: #2a2600ff;
@@ -134,21 +141,22 @@ body {
     margin-left: 20px; 
    margin-right: 20px;
    justify-content: left;
-   font-size:  1.1rem;
+   font-size:  1.2rem;
 }
 .loc-text-FAQ-Right {
     margin-top: 10px;
     margin-left: 20px; 
     margin-right: 20px;
    justify-content: Right;
-   font-size:  1.1rem;
+   font-size:  1.2rem;
+   
 }
 .loc-text-faq-center {
     margin-top: 10px;
     margin-left: 20px; 
     margin-right: 20px;
    justify-content: center;
-   font-size:  1.1rem;
+   font-size:  1.2rem;
 }
 
 .loc-img-format-gallery {
