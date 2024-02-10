@@ -130,21 +130,21 @@ body {
 }
 .loc-para-padding{
     padding-bottom:  25px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left:20px;
+    padding-right:15px;
 }  
 .loc-text-faq {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 60px;
-    padding: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: justify; 
     font-size:  1.1rem;
 }
 .loc-para-top-pad {
    padding-top: 50px;
 }
+
 .loc-faq-contact {
     font-size:  1.2rem;
     margin-left: 20px; 
