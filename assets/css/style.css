@@ -143,6 +143,7 @@ body {
 .loc-text-faq-center {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
     padding: auto;
     text-align: justify; 
    font-size:  1.1rem;
