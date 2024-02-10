@@ -134,16 +134,18 @@ body {
 .loc-text-faq {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
     padding: auto;
     text-align: justify; 
-    font-size:  1.2rem;
+    font-size:  1.1rem;
 }
 .loc-text-faq-center {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: auto;
     text-align: justify; 
-   font-size:  1.2rem;
+   font-size:  1.1rem;
 }
 .loc-faq-contact {
     font-size:  1.2rem;
